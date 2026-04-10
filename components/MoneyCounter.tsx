@@ -28,7 +28,7 @@ export default function MoneyCounter() {
         A1
       </span>
       <span className="w-px h-4 bg-text-primary/10" />
-      <span className="font-mono text-xs text-text-primary/30 italic font-serif font-bold">
+      <span className="font-mono text-xs text-text-primary/40 italic font-serif font-bold">
         fx
       </span>
       <span className="font-mono text-xs text-text-primary/50">

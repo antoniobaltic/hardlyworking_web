@@ -7,7 +7,7 @@ export default function Footer() {
             <p className="font-mono text-xs font-bold text-text-primary/30">
               Hardly Working<span className="text-dead-blue">.</span>
             </p>
-            <p className="font-mono text-[10px] text-text-primary/20 mt-1">
+            <p className="font-mono text-[10px] text-text-primary/35 mt-1">
               © 2026 Hardly Working. All rights reclaimed.
             </p>
           </div>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-text-primary/[0.03]">
-          <p className="font-mono text-[9px] text-text-primary/15 text-center leading-relaxed max-w-xl mx-auto">
+          <p className="font-mono text-[9px] text-text-primary/30 text-center leading-relaxed max-w-xl mx-auto">
             NOTICE: This application is not endorsed, sponsored, or affiliated
             with your employer. Any resemblance to actual workplace productivity
             tools is purely coincidental. Time reclamation figures are

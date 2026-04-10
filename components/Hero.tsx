@@ -78,7 +78,7 @@ export default function Hero() {
           </svg>
           Download Free
         </a>
-        <span className="font-mono text-[10px] text-text-primary/25">
+        <span className="font-mono text-[10px] text-text-primary/40">
           iOS 17+ · No account required to start
         </span>
       </motion.div>

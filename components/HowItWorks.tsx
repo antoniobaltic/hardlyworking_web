@@ -78,7 +78,7 @@ export default function HowItWorks() {
             <span className="money text-xl">$4,200</span> worth of time per
             year.
           </p>
-          <p className="font-mono text-[10px] text-text-primary/20 mt-2">
+          <p className="font-mono text-[10px] text-text-primary/35 mt-2">
             *Based on absolutely nothing. Your results will vary.
           </p>
         </motion.div>

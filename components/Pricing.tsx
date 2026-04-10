@@ -47,13 +47,13 @@ export default function Pricing() {
             className="p-8 rounded-2xl bg-white border border-text-primary/[0.06]"
           >
             <div className="mb-6">
-              <p className="font-mono text-xs font-bold text-text-primary/30 tracking-wider uppercase mb-2">
+              <p className="font-mono text-xs font-bold text-text-primary/45 tracking-wider uppercase mb-2">
                 Standard Clearance
               </p>
               <p className="text-3xl font-light text-text-primary">
                 Free
               </p>
-              <p className="font-mono text-xs text-text-primary/30 mt-1">
+              <p className="font-mono text-xs text-text-primary/45 mt-1">
                 Forever. No tricks.
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function Pricing() {
               Start Free Trial
             </a>
 
-            <p className="font-mono text-[10px] text-text-primary/25 text-center mt-3">
+            <p className="font-mono text-[10px] text-text-primary/40 text-center mt-3">
               Also available: $4.99/week (no trial)
             </p>
           </motion.div>

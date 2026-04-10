@@ -36,7 +36,7 @@ export default function Testimonials() {
         <p className="section-header text-center mb-4">
           EMPLOYEE SATISFACTION REPORTS
         </p>
-        <p className="font-mono text-xs text-text-primary/20 text-center mb-12">
+        <p className="font-mono text-xs text-text-primary/30 text-center mb-12">
           FORM ES-4782 | REV. 3.1 | DEPT. OF MORALE
         </p>
 
@@ -66,7 +66,7 @@ export default function Testimonials() {
                   </span>
                 ))}
                 {Array.from({ length: 5 - review.rating }).map((_, i) => (
-                  <span key={i} className="text-text-primary/10 text-sm">
+                  <span key={i} className="text-text-primary/20 text-sm">
                     ★
                   </span>
                 ))}
@@ -78,7 +78,7 @@ export default function Testimonials() {
 
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full bg-dead-blue/10 flex items-center justify-center">
-                  <span className="font-mono text-xs font-bold text-dead-blue/40">
+                  <span className="font-mono text-xs font-bold text-dead-blue/60">
                     {review.name.charAt(0)}
                   </span>
                 </div>
@@ -95,7 +95,7 @@ export default function Testimonials() {
           ))}
         </motion.div>
 
-        <p className="font-mono text-[10px] text-text-primary/15 text-center mt-8">
+        <p className="font-mono text-[10px] text-text-primary/30 text-center mt-8">
           * All testimonials are fictional and for entertainment purposes only.
           Any resemblance to actual employees is purely coincidental.
         </p>

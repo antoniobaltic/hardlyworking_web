@@ -39,7 +39,7 @@ export default function FAQ() {
         <p className="section-header text-center mb-2">
           FREQUENTLY ASKED QUESTIONS
         </p>
-        <p className="font-mono text-[10px] text-text-primary/15 text-center mb-12">
+        <p className="font-mono text-[10px] text-text-primary/25 text-center mb-12">
           INTERNAL MEMO | REF: FAQ-HW-2026 | CLASSIFICATION: PUBLIC
         </p>
 
@@ -59,7 +59,7 @@ export default function FAQ() {
                 <motion.span
                   animate={{ rotate: openIndex === i ? 45 : 0 }}
                   transition={{ duration: 0.2 }}
-                  className="text-text-primary/30 text-lg flex-shrink-0"
+                  className="text-text-primary/45 text-lg flex-shrink-0"
                 >
                   +
                 </motion.span>

@@ -69,7 +69,7 @@ export default function Features() {
                 <span className="font-mono text-[10px] font-bold text-text-primary/30 bg-card-bg px-2 py-1 rounded">
                   fx
                 </span>
-                <span className="font-mono text-[10px] text-text-primary/20">
+                <span className="font-mono text-[10px] text-text-primary/35">
                   {feature.formula}
                 </span>
               </div>
