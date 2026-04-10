@@ -2,25 +2,75 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1D3557;
+  --blood-red: #E63946;
+  --dead-blue: #457B9D;
+  --caution-yellow: #F4A261;
+  --reclaimed-green: #2A9D8F;
+  --card-bg: #F1FAEE;
+  --text-primary: #1D3557;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-blood-red: var(--blood-red);
+  --color-dead-blue: var(--dead-blue);
+  --color-caution-yellow: var(--caution-yellow);
+  --color-reclaimed-green: var(--reclaimed-green);
+  --color-card-bg: var(--card-bg);
+  --color-text-primary: var(--text-primary);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section header style — reusable */
+.section-header {
+  font-family: var(--font-mono), monospace;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
+/* Formula bar style */
+.formula-text {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.8rem;
+}
+
+/* Money amount — always green */
+.money {
+  color: var(--reclaimed-green);
+  font-family: var(--font-mono), monospace;
+  font-weight: 700;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(29, 53, 87, 0.1);
+  border-radius: 3px;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(69, 123, 157, 0.2);
 }
