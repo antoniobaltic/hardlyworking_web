@@ -1,0 +1,63 @@
+# Hardly Working
+
+> Hardly Working is a free iOS app that tracks time spent not working at work. It is a break timer and wage calculator — users run timers when slacking off, categorize activities, input their hourly wage, and see how much they "reclaimed" from their employer. Built by Antonio Baltic. Inspired by David Graeber's "Bullshit Jobs."
+
+Hardly Working is available on the iOS App Store for iPhone (iOS 26+). The app uses a corporate-ironic brand voice — bland HR language on the surface, absurd content underneath. The fictional company "Hardly Working Corp." frames the app as a time reclamation firm where users are "employees."
+
+The app is freemium. The free tier includes full timer functionality with all 10 activity categories, today and weekly performance dashboards, basic industry benchmarks, the ability to join friend group leaderboards, share cards, and 10 achievements. The Pro tier ($4.99/week or $39.99/year with 7-day free trial) unlocks monthly/yearly/lifetime dashboards, an insights engine called "Audit Findings," personal records and category rankings, full country and industry benchmark rankings, friend group creation and management, custom activity categories, CSV data export, premium share cards without watermark, and 5 exclusive achievements.
+
+## Links
+
+- [Homepage](https://hardlyworking.app): Landing page with app overview, features, pricing, and App Store download link
+- [App Store](https://apps.apple.com/app/id6761917321): Download Hardly Working for free on iOS
+- [Privacy Policy](https://hardlyworking.app/privacy): Full privacy policy covering data collection, GDPR, CCPA, and third-party services
+- [Terms of Service](https://hardlyworking.app/terms): Terms of use including subscription terms and Apple EULA provisions
+
+## Features
+
+- Break timer with 10 built-in activity categories: Coffee Run, Bathroom Break, Chatting, Doom Scrolling, Online Shopping, Errands, Looking Busy, "Thinking", Into the Void, Long Lunch
+- Real-time wage reclamation calculator based on user's hourly rate and currency
+- Performance dashboards: Day, Week, Month, Year, and Lifetime views with charts and insights
+- Anonymous aggregate benchmarks: compare your slacking to global averages, country rankings, and industry rankings
+- Private friend group leaderboards (called "Reclamation Units") with QR code invites
+- 15 achievements across 5 rarity tiers with corporate-ironic names
+- Share cards for social media with personalized stats
+- CSV data export for full time entry history
+- Sign in with Apple for cross-device sync via iCloud
+- Local notifications for background timer reminders
+- Offline-first: all core features work without internet
+
+## Activity Categories
+
+1. Coffee Run ☕
+2. Bathroom Break 🚽
+3. Chatting 🗣
+4. Doom Scrolling 📱
+5. Online Shopping 🛒
+6. Errands 📋
+7. Looking Busy ⌨️
+8. "Thinking" 💭
+9. Into the Void 👁
+10. Long Lunch 🍽️
+
+Pro users can create unlimited custom categories mapped to these parent categories for data quality.
+
+## Pricing
+
+- **Free (Intern tier):** Full break timer, today + this week dashboards, basic benchmarks, join friend groups, share cards with watermark, 10 achievements
+- **Pro (Executive tier):** $4.99/week (no trial) or $39.99/year (7-day free trial, cancel anytime). Includes everything in Free plus: month/year/lifetime dashboards, insights engine, personal records, full benchmark rankings, create friend groups, custom categories, CSV export, premium share cards, 5 exclusive achievements
+
+## Technical Details
+
+- Platform: iOS 26+ (iPhone)
+- Framework: SwiftUI + SwiftData
+- Backend: Supabase (EU region, eu-central-1) for auth, profiles, and aggregate benchmarks
+- Subscriptions: RevenueCat
+- Attribution: AppsFlyer
+- Data privacy: Time entries stored locally + iCloud sync. Only anonymized daily aggregates sent to server.
+
+## Contact
+
+- Developer: Antonio Baltic
+- Email: antoniobaltic@icloud.com
+- Location: Graz, Austria
