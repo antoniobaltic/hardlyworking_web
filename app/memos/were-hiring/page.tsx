@@ -59,40 +59,33 @@ export default function Memo() {
         when your employer says it doesn&apos;t.
       </p>
 
-      <h2>Why We Built It</h2>
+      <h2>Background</h2>
 
       <p>
-        I founded this firm in February because I was tired of pretending.
+        Hardly Working Corp. was incorporated in February 2026 after a routine
+        market analysis identified a gap in available tooling. Existing time
+        tracking solutions focused exclusively on productive output.
+        Non-productive time — which, per Department of Research findings
+        (MEMO-2026-003), constitutes the majority of a standard workday —
+        remained untracked and unquantified.
       </p>
 
       <p>
-        Pretending that eight hours of presence equals eight hours of work.
-        Pretending that staring at a screen is the same as thinking. Pretending
-        that the guilt I felt about a fifteen-minute coffee break was rational
-        when three hours of my day were spent in meetings that produced nothing.
+        This was determined to be a significant oversight. Development
+        commenced. The product is now available.
+      </p>
+
+      <h2>Acknowledgments</h2>
+
+      <p>
+        The founding employee cohort provided extensive testing data and
+        operational feedback during the pre-launch period. Their contributions
+        have been noted in their personnel files.
       </p>
 
       <p>
-        I looked for an app that would track the real shape of my workday —
-        not the productive hours, but the other ones. The ones nobody counts.
-        The ones that, if I was being honest, made up the majority of my time.
-      </p>
-
-      <p>
-        That app did not exist. So I built it.
-      </p>
-
-      <h2>Thank You</h2>
-
-      <p>
-        To the founding employees who tested early builds, filed bugs, and
-        sent me screenshots of their reclamation totals at midnight: thank
-        you. You are the reason this works.
-      </p>
-
-      <p>
-        To everyone downloading today: welcome to the firm. Your orientation
-        is brief. Your expectations are zero. Your time is yours.
+        New employees downloading today are welcomed to the firm. Orientation
+        materials are available in-app. No prior experience is required.
       </p>
 
       <h2>What&apos;s Next</h2>
@@ -103,17 +96,17 @@ export default function Memo() {
       </p>
 
       <p>
-        But first: open the app. Start a timer. Pick a category. Watch the
-        number tick up. That number is yours. It always was.
+        Standard onboarding procedure: install the application, initialize a
+        timer, select an activity code. The system will handle the rest.
       </p>
 
       <p>
         The Department of Employee Morale has been permanently dissolved.
-        In its place, we offer something better: honesty.
+        Its functions have not been reassigned.
       </p>
 
       <p>
-        We&apos;re hiring. No experience required.
+        We&apos;re hiring. No experience required. No questions asked.
       </p>
 
       <p>

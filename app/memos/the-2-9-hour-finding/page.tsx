@@ -84,10 +84,10 @@ export default function Memo() {
       </p>
 
       <p>
-        Hardly Working Corp. takes a different view. We do not believe 2.9
-        hours is a failure. We believe it is a natural constant — like gravity
-        or the speed of light. Fighting it is expensive and futile. Measuring
-        it is cheap and honest.
+        Hardly Working Corp. classifies the 2.9-hour figure as a natural
+        constant — comparable in reliability to gravity or the speed of light.
+        Historical intervention attempts have yielded negligible results.
+        Measurement, by contrast, is inexpensive and produces actionable data.
       </p>
 
       <h2>The Opportunity</h2>

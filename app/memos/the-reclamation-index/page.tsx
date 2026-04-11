@@ -51,7 +51,8 @@ export default function Memo() {
       </p>
 
       <p>
-        We reject this framing.
+        Hardly Working Corp. operates under an alternative classification
+        methodology.
       </p>
 
       <p>
@@ -103,24 +104,18 @@ export default function Memo() {
         But it is the reason we say &ldquo;reclaimed.&rdquo;
       </p>
 
-      <h2>A Note on Tone</h2>
+      <h2>Implementation</h2>
 
       <p>
-        Hardly Working Corp. is not an activist organization. We are a time
-        reclamation firm. Our tone is professional, measured, and deliberately
-        neutral. We do not encourage employees to slack more. We do not
-        discourage them from slacking less.
+        The terminology outlined above is effective immediately across all
+        Hardly Working Corp. communications, dashboards, and reporting tools.
+        The system is observational, not prescriptive. No corrective guidance
+        is issued regarding reclamation volume or duration.
       </p>
 
       <p>
-        We simply provide the tools and the language to understand what is
-        already happening. The word &ldquo;reclaimed&rdquo; is part of that
-        language. It is empowering without being aggressive. Honest without
-        being confrontational.
-      </p>
-
-      <p>
-        It says: this time was always yours.
+        Employees are encouraged to use the terminology as documented.
+        Interpretation is left to the individual.
       </p>
 
       <p>

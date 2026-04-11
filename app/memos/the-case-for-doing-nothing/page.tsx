@@ -68,14 +68,16 @@ export default function Memo() {
 
       <p>
         The employee who spends twenty minutes scrolling their phone does not
-        suffer because of the scrolling. They suffer because they believe they
-        should not be scrolling. They look around the office, see colleagues
-        who appear busy, and conclude that they alone are the problem.
+        report reduced wellbeing from the scrolling itself. The reduction
+        correlates with the belief that they should not be scrolling. They
+        observe colleagues who appear busy and conclude that they alone
+        deviate from the norm.
       </p>
 
       <p>
-        They are not the problem. Their colleagues are also scrolling. Everyone
-        is performing. The performance is the problem.
+        Department analysis indicates that their colleagues are also scrolling.
+        The norm is the deviation. This finding is consistent across all
+        sectors.
       </p>
 
       <h2>What the Research Says</h2>
@@ -141,15 +143,15 @@ export default function Memo() {
       </p>
 
       <p>
-        Morale improves when people are treated like adults. When they are
-        trusted to manage their own time. When they are not surveilled,
-        micromanaged, or guilt-tripped into performing productivity they do
-        not feel.
+        Morale metrics correlate positively with autonomy, transparency, and
+        the absence of surveillance protocols. These findings are consistent
+        across the literature and require no further elaboration.
       </p>
 
       <p>
-        Hardly Working Corp. cannot change your workplace. But it can give
-        you permission to stop pretending. And sometimes that is enough.
+        Hardly Working Corp. does not modify workplace conditions. The tool
+        provides measurement. Measurement replaces assumption. Beyond that,
+        outcomes are user-specific and outside departmental scope.
       </p>
 
       <p>

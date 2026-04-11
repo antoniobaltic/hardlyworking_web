@@ -67,27 +67,23 @@ export default function Memo() {
 
       <p>
         Hardly Working Corp. does not monitor, regulate, or express opinions
-        about how its employees spend their bathroom time. This is a matter of
-        fundamental human dignity, and we will not compromise it for the sake
-        of a cleaner dataset.
+        about how its employees spend their bathroom time. This policy is
+        non-negotiable.
       </p>
 
       <p>
-        We note that this stands in contrast to a growing number of real
-        employers who have installed timed locks on bathroom stalls, placed
-        bathroom usage on performance dashboards, or designed office layouts
-        where the bathroom is visible from the manager&apos;s desk.
+        We note that a growing number of employers have installed timed locks
+        on bathroom stalls, placed bathroom usage on performance dashboards,
+        or designed office layouts where the bathroom is visible from the
+        manager&apos;s desk. These practices are documented in our files.
+        We have no further comment.
       </p>
 
       <p>
-        We find these practices appalling.
-      </p>
-
-      <p>
-        The bathroom is one of the last spaces in the modern workplace where
-        an employee can be alone, unmonitored, and unbothered. If someone
-        chooses to spend nine minutes in there instead of four, that is
-        between them, their phone, and their digestive system.
+        If an employee chooses to spend nine minutes in the bathroom instead
+        of four, this falls outside the scope of organizational review. The
+        matter is between the employee, their phone, and their digestive
+        system.
       </p>
 
       <h2>Recommendation</h2>
@@ -106,7 +102,8 @@ export default function Memo() {
       </p>
 
       <p>
-        Some things are sacred.
+        This concludes the Department&apos;s assessment. No follow-up is
+        required.
       </p>
 
       <p>

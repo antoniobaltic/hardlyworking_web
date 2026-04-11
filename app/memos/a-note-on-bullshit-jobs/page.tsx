@@ -127,34 +127,28 @@ export default function Memo() {
         valuable than anything your supervisor would do with the answers.
       </p>
 
-      <h2>Why This Matters</h2>
+      <h2>Relevance to Operations</h2>
 
       <p>
-        Hardly Working Corp. was not built to mock work. It was built because
-        millions of people spend their days in roles that do not require eight
-        hours of attention, in offices that do not require their presence, on
-        tasks that do not require their talents — and they are made to feel
-        guilty about the surplus time that inevitably results.
+        Graeber&apos;s framework has been adopted by the Department of
+        Professional Development as a diagnostic tool. Employees who recognize
+        their role within the five-category taxonomy may find that Hardly
+        Working Corp.&apos;s time reclamation tools provide useful data points
+        for self-assessment.
       </p>
 
       <p>
-        Graeber&apos;s insight was that this guilt is the real product of the
-        modern workplace. Not software. Not widgets. Not quarterly reports.
-        Guilt. The feeling that you should be doing more, even when there is
-        nothing more to do.
-      </p>
-
-      <p>
-        Hardly Working does not solve this. But it gives you a number. And
-        sometimes a number is enough to replace guilt with understanding.
+        The relationship between role classification and reclamation volume
+        is documented but not commented upon. The Department notes only that
+        the correlation is consistent.
       </p>
 
       <p>
         <em>
           — Dept. of Professional Development
           <br />
-          In memory of David Graeber, who noticed what everyone else
-          pretended not to see.
+          Reference: Graeber, D. (2018). Bullshit Jobs: A Theory. Simon
+          &amp; Schuster. Designated mandatory reading per MEMO-2026-008.
         </em>
       </p>
     </MemoLayout>

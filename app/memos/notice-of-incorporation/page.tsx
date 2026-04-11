@@ -73,22 +73,20 @@ export default function Memo() {
         you feel informed.
       </p>
 
-      <h2>What We Believe</h2>
+      <h2>Corporate Philosophy</h2>
 
       <p>
-        We believe your time has value — even the time your employer considers
-        wasted. Especially that time.
+        The modern workplace operates on a widely observed principle: that
+        presence equals productivity. This principle has not been empirically
+        validated. Hardly Working Corp. does not intend to challenge this
+        principle. We intend to measure it.
       </p>
 
       <p>
-        We believe the modern workplace runs on a polite fiction: that being
-        present equals being productive. We do not intend to dismantle this
-        fiction. We simply intend to measure it.
-      </p>
-
-      <p>
-        We believe that if you are going to spend a third of your life at work,
-        you deserve to know exactly how much of that time was yours.
+        Our assessment is that the gap between &ldquo;hours paid&rdquo; and
+        &ldquo;hours worked&rdquo; is quantifiable, significant, and universal.
+        We provide the measurement tool. The implications are left to the
+        individual employee.
       </p>
 
       <h2>What Happens Next</h2>
@@ -101,11 +99,7 @@ export default function Memo() {
       </p>
 
       <p>
-        If this sounds like something you need, it probably is.
-      </p>
-
-      <p>
-        Welcome to the firm.
+        Enrollment is voluntary. No references required.
       </p>
 
       <p>

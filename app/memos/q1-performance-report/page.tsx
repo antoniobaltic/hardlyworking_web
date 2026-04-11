@@ -28,9 +28,7 @@ export default function Memo() {
       </p>
 
       <p>
-        All figures should be treated with the seriousness of an actual
-        quarterly earnings call, despite the fact that they measure the
-        opposite of earnings.
+        All figures are presented with standard analytical rigor.
       </p>
 
       <h2>Key Metrics</h2>
