@@ -33,10 +33,10 @@ export default function Testimonials() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           EMPLOYEE TESTIMONIALS
         </p>
-        <p className="font-mono text-xs text-text-primary/30 text-center mb-12">
+        <p className="font-mono text-xs text-text-primary/50 text-center mb-12">
           FORM ES-4782 | REV. 3.1 | HARDLY WORKING CORP. DEPT. OF MORALE
         </p>
 
@@ -86,7 +86,7 @@ export default function Testimonials() {
                   <p className="font-mono text-xs font-semibold text-text-primary/60">
                     {review.name}
                   </p>
-                  <p className="font-mono text-[10px] text-text-primary/40">
+                  <p className="font-mono text-[10px] text-text-primary/50">
                     {review.role}
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export default function Testimonials() {
           ))}
         </motion.div>
 
-        <p className="font-mono text-[10px] text-text-primary/30 text-center mt-8">
+        <p className="font-mono text-[10px] text-text-primary/50 text-center mt-8">
           * All testimonials are from fictional Hardly Working Corp. employees.
           Any resemblance to your actual coworkers is purely coincidental.
         </p>

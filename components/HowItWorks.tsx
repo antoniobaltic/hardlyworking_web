@@ -30,10 +30,10 @@ export default function HowItWorks() {
   return (
     <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           NEW HIRE ORIENTATION
         </p>
-        <p className="font-mono text-sm text-text-primary/40 text-center mb-16">
+        <p className="font-mono text-sm text-text-primary/50 text-center mb-16">
           Your onboarding at Hardly Working Corp. takes three steps.
         </p>
 
@@ -71,7 +71,7 @@ export default function HowItWorks() {
           transition={{ delay: 0.5 }}
           className="mt-16 text-center"
         >
-          <p className="font-mono text-xs text-text-primary/35 mb-2">
+          <p className="font-mono text-xs text-text-primary/45 mb-2">
             =FORECAST(annual_reclamation)
           </p>
           <p className="font-mono text-sm text-text-primary/50">
@@ -79,7 +79,7 @@ export default function HowItWorks() {
             <span className="money text-xl">$4,200</span> worth of time per
             year.
           </p>
-          <p className="font-mono text-[10px] text-text-primary/35 mt-2">
+          <p className="font-mono text-[10px] text-text-primary/45 mt-2">
             *Based on internal projections. Individual results vary by department.
           </p>
         </motion.div>

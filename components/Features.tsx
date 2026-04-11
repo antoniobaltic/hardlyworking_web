@@ -53,8 +53,8 @@ export default function Features() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">EMPLOYEE TOOLKIT</p>
-        <p className="font-mono text-sm text-text-primary/40 text-center mb-16 max-w-md mx-auto">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">EMPLOYEE TOOLKIT</p>
+        <p className="font-mono text-sm text-text-primary/50 text-center mb-16 max-w-md mx-auto">
           Every new hire receives access to our full suite of time reclamation tools.
         </p>
 
@@ -73,7 +73,7 @@ export default function Features() {
             >
               {/* Department label */}
               <div className="flex items-center gap-2 mb-6">
-                <span className="font-mono text-[10px] font-bold text-text-primary/30 bg-card-bg px-2 py-1 rounded">
+                <span className="font-mono text-[10px] font-bold text-text-primary/40 bg-card-bg px-2 py-1 rounded">
                   fx
                 </span>
                 <span className="font-mono text-[10px] text-text-primary/35">

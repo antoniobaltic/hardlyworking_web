@@ -30,10 +30,10 @@ export default function Pricing() {
   return (
     <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
       <div className="max-w-4xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           EMPLOYEE TIERS
         </p>
-        <p className="font-mono text-sm text-text-primary/40 text-center mb-12">
+        <p className="font-mono text-sm text-text-primary/50 text-center mb-12">
           All positions start free. Promotions are available for ambitious reclaimers.
         </p>
 
@@ -47,13 +47,13 @@ export default function Pricing() {
             className="p-8 rounded-2xl bg-white border border-text-primary/[0.06]"
           >
             <div className="mb-6">
-              <p className="font-mono text-xs font-bold text-text-primary/45 tracking-wider uppercase mb-2">
+              <p className="font-mono text-xs font-bold text-text-primary/55 tracking-wider uppercase mb-2">
                 Intern
               </p>
               <p className="text-3xl font-light text-text-primary">
                 Free
               </p>
-              <p className="font-mono text-xs text-text-primary/45 mt-1">
+              <p className="font-mono text-xs text-text-primary/55 mt-1">
                 Permanent position. No performance review.
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function Pricing() {
                 <p className="text-3xl font-light text-text-primary">
                   $39.99
                 </p>
-                <p className="font-mono text-xs text-text-primary/40">
+                <p className="font-mono text-xs text-text-primary/50">
                   /year
                 </p>
               </div>
@@ -126,7 +126,7 @@ export default function Pricing() {
               Request Promotion — Free Trial
             </a>
 
-            <p className="font-mono text-[10px] text-text-primary/40 text-center mt-3">
+            <p className="font-mono text-[10px] text-text-primary/50 text-center mt-3">
               Also available: $4.99/week (no trial period)
             </p>
           </motion.div>

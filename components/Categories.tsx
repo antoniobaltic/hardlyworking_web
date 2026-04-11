@@ -19,10 +19,10 @@ export default function Categories() {
   return (
     <section className="py-20 px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           APPROVED ACTIVITY CODES
         </p>
-        <p className="font-mono text-sm text-text-primary/40 text-center mb-12 max-w-lg mx-auto">
+        <p className="font-mono text-sm text-text-primary/50 text-center mb-12 max-w-lg mx-auto">
           All Hardly Working Corp. employees receive 10 pre-approved break
           categories. From innocent to existential. Promoted employees may create custom ones.
         </p>

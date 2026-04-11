@@ -36,7 +36,7 @@ export default function FAQ() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-2xl mx-auto">
-        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-2">
+        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-2">
           FREQUENTLY ASKED QUESTIONS
         </p>
         <p className="font-mono text-[10px] text-text-primary/25 text-center mb-12">
@@ -59,7 +59,7 @@ export default function FAQ() {
                 <motion.span
                   animate={{ rotate: openIndex === i ? 45 : 0 }}
                   transition={{ duration: 0.2 }}
-                  className="text-text-primary/45 text-lg flex-shrink-0"
+                  className="text-text-primary/55 text-lg flex-shrink-0"
                 >
                   +
                 </motion.span>
