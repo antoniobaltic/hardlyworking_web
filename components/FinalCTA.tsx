@@ -45,6 +45,9 @@ export default function FinalCTA() {
           transition={{ delay: 0.2 }}
         >
           <AppStoreBadge />
+          <p className="font-mono text-[10px] text-text-primary/50 mt-3">
+            Apply now!
+          </p>
         </motion.div>
       </div>
     </section>
