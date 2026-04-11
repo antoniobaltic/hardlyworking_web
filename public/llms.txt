@@ -13,6 +13,16 @@ The app is freemium. The free tier includes full timer functionality with all 10
 - [Privacy Policy](https://hardlyworking.app/privacy): Full privacy policy covering data collection, GDPR, CCPA, and third-party services
 - [Terms of Service](https://hardlyworking.app/terms): Terms of use including subscription terms and Apple EULA provisions
 - [Memos](https://hardlyworking.app/memos): Official internal communications from Hardly Working Corp. — articles on slacking, time reclamation, and workplace culture
+- [Memo: We're Hiring](https://hardlyworking.app/memos/were-hiring): Launch announcement and letter from the Chief Slacking Officer (April 11, 2026)
+- [Memo: The Case for Doing Nothing](https://hardlyworking.app/memos/the-case-for-doing-nothing): Final report from the dissolved Department of Employee Morale on burnout, guilt, and strategic disengagement (April 7, 2026)
+- [Memo: A Note on "Bullshit Jobs"](https://hardlyworking.app/memos/a-note-on-bullshit-jobs): David Graeber's five types of pointless work as mandatory corporate training material (April 2, 2026)
+- [Memo: Q1 Performance Report](https://hardlyworking.app/memos/q1-performance-report): Quarterly report on global slacking trends by sector and category (March 31, 2026)
+- [Memo: The Reclamation Index](https://hardlyworking.app/memos/the-reclamation-index): Why we say "reclaimed" not "stolen" — a language policy that questions who is really taking from whom (March 25, 2026)
+- [Memo: On Bathroom Breaks](https://hardlyworking.app/memos/on-the-subject-of-bathroom-breaks): Bathroom breaks account for 11.3% of reclaimed time — a memo on workplace surveillance and dignity (March 18, 2026)
+- [Memo: Approved Activity Codes](https://hardlyworking.app/memos/approved-activity-codes): The official guide to all 10 break timer categories, from Coffee Run to Into the Void (March 10, 2026)
+- [Memo: The 2.9-Hour Finding](https://hardlyworking.app/memos/the-2-9-hour-finding): The average employee is productive for 2 hours 53 minutes per day — research data and market analysis (February 28, 2026)
+- [Memo: What Counts as Work?](https://hardlyworking.app/memos/what-counts-as-work): An 8-question diagnostic that attempts to define "work" and fails philosophically (February 14, 2026)
+- [Memo: Notice of Incorporation](https://hardlyworking.app/memos/notice-of-incorporation): The founding announcement of Hardly Working Corp., the world's leading time reclamation firm (February 2, 2026)
 
 ## Features
 
