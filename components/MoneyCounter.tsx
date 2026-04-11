@@ -9,10 +9,10 @@ export default function MoneyCounter() {
   useEffect(() => {
     const interval = setInterval(() => {
       setAmount((prev) => {
-        const increment = 0.01 + Math.random() * 0.03;
+        const increment = 0.02 + Math.random() * 0.06;
         return Math.round((prev + increment) * 100) / 100;
       });
-    }, 800);
+    }, 300);
     return () => clearInterval(interval);
   }, []);
 
@@ -32,7 +32,7 @@ export default function MoneyCounter() {
         fx
       </span>
       <span className="font-mono text-xs text-text-primary/50">
-        =SUM(time_reclaimed)
+        =SUM(wages_reclaimed)
       </span>
       <span className="font-mono text-lg font-bold money tabular-nums">
         ${amount.toFixed(2)}

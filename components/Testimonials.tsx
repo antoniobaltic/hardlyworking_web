@@ -33,7 +33,7 @@ export default function Testimonials() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <p className="section-header text-center mb-4">
+        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-4">
           EMPLOYEE TESTIMONIALS
         </p>
         <p className="font-mono text-xs text-text-primary/30 text-center mb-12">

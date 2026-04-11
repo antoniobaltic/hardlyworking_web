@@ -36,7 +36,7 @@ export default function FAQ() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-2xl mx-auto">
-        <p className="section-header text-center mb-2">
+        <p className="font-mono text-sm font-extrabold tracking-[0.15em] uppercase text-text-primary/60 text-center mb-2">
           FREQUENTLY ASKED QUESTIONS
         </p>
         <p className="font-mono text-[10px] text-text-primary/25 text-center mb-12">

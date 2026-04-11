@@ -38,11 +38,12 @@ html {
 /* Section header style — reusable */
 .section-header {
   font-family: var(--font-mono), monospace;
-  font-weight: 700;
-  font-size: 0.7rem;
+  font-weight: 800;
+  font-size: 0.85rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  opacity: 0.3;
+  color: var(--text-primary);
+  opacity: 0.6;
 }
 
 /* Formula bar style */
