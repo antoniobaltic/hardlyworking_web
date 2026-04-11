@@ -22,8 +22,8 @@ export default function Memo() {
 
       <p>
         The Department of Research has completed its preliminary analysis of
-        global workplace productivity data. The findings are significant. Or,
-        depending on your perspective, completely obvious.
+        global workplace productivity data. The findings confirm established
+        productivity research.
       </p>
 
       <h2>Executive Summary</h2>
@@ -99,12 +99,13 @@ export default function Memo() {
       </p>
 
       <p>
-        Most of them do not know this. Hardly Working exists to change that.
+        Current market solutions do not surface this data. Hardly Working
+        Corp. addresses this measurement gap.
       </p>
 
       <p>
-        Not to make them feel guilty. Not to make them work harder. Simply to
-        give them a number. What they do with that number is their business.
+        The tool provides quantification. Application of the resulting
+        metrics remains at the discretion of the individual user.
       </p>
 
       <h2>Recommendation</h2>

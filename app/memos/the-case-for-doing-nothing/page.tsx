@@ -57,13 +57,14 @@ export default function Memo() {
       <h2>The Guilt</h2>
 
       <p>
-        This is the part no one talks about.
+        The following section addresses an underexamined variable.
       </p>
 
       <p>
-        Not the slacking itself. Everyone slacks. The data is unambiguous (see
-        MEMO-2026-003: The 2.9-Hour Finding). What damages people is not the
-        idle time — it is the <em>guilt</em> they feel about it.
+        Not the idle time itself. The data on idle time is unambiguous (see
+        MEMO-2026-003: The 2.9-Hour Finding). The variable that correlates
+        with negative outcomes is the <em>psychological burden</em> associated
+        with perceived non-productivity.
       </p>
 
       <p>
@@ -117,19 +118,19 @@ export default function Memo() {
 
       <ul>
         <li>
-          Take your coffee break without checking your email during it.
+          Coffee breaks should be taken without concurrent email monitoring.
         </li>
         <li>
-          Stare out the window for five minutes and call it what it is:
-          necessary.
+          Window-facing intervals of five minutes or fewer are classified
+          as cognitive processing time and require no justification.
         </li>
         <li>
-          When there is nothing to do, do nothing. Do not invent busywork
-          to justify your salary. Your salary is justified. You showed up.
+          When no tasks are pending, no tasks should be fabricated.
+          Presence fulfills the employment contract.
         </li>
         <li>
-          Track your non-productive time. Not to minimize it. To understand
-          it. To stop feeling guilty about something that every single one
+          Non-productive time should be tracked — not to reduce it, but to
+          quantify it. Quantification has been shown to reduce the guilt
           of your colleagues is also doing.
         </li>
       </ul>
@@ -137,9 +138,9 @@ export default function Memo() {
       <h2>A Final Word</h2>
 
       <p>
-        The Department of Employee Morale was dissolved because the company
-        concluded that morale is not something you can fix with memos, pizza
-        parties, or mandatory fun. We agree with this assessment.
+        The Department of Employee Morale was dissolved after standard
+        intervention strategies (memos, catered events, team-building
+        initiatives) were determined ineffective by internal review.
       </p>
 
       <p>

@@ -21,7 +21,7 @@ export default function Memo() {
       </p>
 
       <p>
-        It is with measured enthusiasm that we announce the formation of{" "}
+        Hardly Working Corp. announces the formation of{" "}
         <strong>Hardly Working Corp.</strong>, a time reclamation solutions firm
         headquartered in an undisclosed location. Effective immediately, the company is
         open for enrollment.
@@ -50,7 +50,8 @@ export default function Memo() {
       </p>
 
       <p>
-        Nobody talks about this. Everyone knows.
+        This dynamic is well-documented in productivity literature and
+        widely observed across industries.
       </p>
 
       <h2>The Solution</h2>

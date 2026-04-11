@@ -29,9 +29,9 @@ export default function Memo() {
 
       <p>
         All employees are expected to familiarize themselves with the core
-        arguments of this text. Not because we agree with everything in it.
-        But because it articulates something that most of our employees already
-        feel in their bones and have never been given the vocabulary to express.
+        arguments of this text. The Department has determined it provides a
+        classification framework consistent with patterns observed across the
+        Hardly Working Corp. employee base.
       </p>
 
       <h2>Background</h2>
@@ -74,8 +74,8 @@ export default function Memo() {
         <li>
           <strong>Flunkies</strong> — Roles that exist primarily to make
           someone else feel important. If your job is to be present so that a
-          senior person appears to have staff, you may be a flunky. No
-          judgment. The system created the role, not you.
+          senior person appears to have staff, classification as flunky
+          may apply. This is a structural designation, not a performance review.
         </li>
         <li>
           <strong>Goons</strong> — Roles that exist only because competitors
@@ -89,7 +89,7 @@ export default function Memo() {
           should not exist. If your job is to manually reconcile data between
           two systems that should talk to each other, or to smooth over
           failures caused by organizational dysfunction, you are a duct taper.
-          You are essential. Your job should not be.
+          Such roles are operationally necessary but structurally redundant.
         </li>
         <li>
           <strong>Box Tickers</strong> — Roles that exist to create the

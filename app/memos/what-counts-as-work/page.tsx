@@ -28,15 +28,15 @@ export default function Memo() {
       </p>
 
       <p>
-        After three weeks of internal deliberation, we are prepared to admit
-        that this is harder than it sounds.
+        After three weeks of internal deliberation, the Department has
+        determined that this task presents unexpected definitional challenges.
       </p>
 
       <h2>The Diagnostic</h2>
 
       <p>
         Please answer the following questions about your current occupation.
-        Be honest. Nobody is watching. (We checked.)
+        Responses are confidential and will not be reviewed by management.
       </p>
 
       <ol>
@@ -95,8 +95,8 @@ export default function Memo() {
       <h2>Conclusion</h2>
 
       <p>
-        If you found this memo useful, you were not working while you read it.
-        Please log the time accordingly.
+        Time spent reading this memo should be logged under the appropriate
+        activity code.
       </p>
 
       <p>

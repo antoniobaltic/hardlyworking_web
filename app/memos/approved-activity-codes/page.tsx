@@ -87,7 +87,8 @@ export default function Memo() {
         The deliberate performance of productivity in the absence of actual
         output. Typing purposefully while reading nothing. Furrowing your brow
         at a spreadsheet you do not understand. Nodding during a meeting you
-        stopped listening to fourteen minutes ago. An art form.
+        stopped listening to fourteen minutes ago. This activity requires
+        advanced professional competencies.
       </p>
 
       <h2>Code 08: &ldquo;Thinking&rdquo; 💭</h2>

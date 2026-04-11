@@ -36,8 +36,8 @@ export default function Memo() {
       <ul>
         <li><strong>Average daily reclamation:</strong> 3.1 hours per employee</li>
         <li><strong>Average daily reclamation value:</strong> $74.40 (at median hourly rate)</li>
-        <li><strong>Most active day:</strong> Wednesday (hypothesis: the will to work has fully eroded by midweek)</li>
-        <li><strong>Least active day:</strong> Friday (employees already mentally absent)</li>
+        <li><strong>Most active day:</strong> Wednesday (midweek engagement metrics consistently lowest)</li>
+        <li><strong>Least active day:</strong> Friday (reduced presence indicators across all cohorts)</li>
         <li><strong>Peak slacking hour:</strong> 2:00–3:00 PM (the post-lunch void)</li>
       </ul>
 
@@ -48,10 +48,10 @@ export default function Memo() {
       </p>
 
       <ul>
-        <li><strong>Tech:</strong> 3.4 hrs/day — The sector with the most tools designed to improve productivity is also the sector with the highest non-productivity. We do not find this ironic. We find it inevitable.</li>
+        <li><strong>Tech:</strong> 3.4 hrs/day — The sector with the highest concentration of productivity tools reports the highest non-productivity. This correlation is noted without further comment.</li>
         <li><strong>Finance:</strong> 2.8 hrs/day — Slightly lower than average. The Department speculates this reflects the industry&apos;s culture of performative busyness rather than actual engagement.</li>
-        <li><strong>Government:</strong> 3.7 hrs/day — The leading sector. We have no comment other than to note that this surprises no one.</li>
-        <li><strong>Education:</strong> 2.4 hrs/day — The lowest. Teachers appear to actually work. We respect this and find it mildly alarming.</li>
+        <li><strong>Government:</strong> 3.7 hrs/day — The leading sector. This figure aligns with sector-wide expectations.</li>
+        <li><strong>Education:</strong> 2.4 hrs/day — The lowest sector. This represents a statistical outlier. The Department has flagged it for further review.</li>
         <li><strong>Creative:</strong> 3.2 hrs/day — Includes a disproportionate amount of &ldquo;Thinking&rdquo; (Code 08). Whether this constitutes work remains an open philosophical question.</li>
       </ul>
 
@@ -86,10 +86,8 @@ export default function Memo() {
       </p>
 
       <p>
-        We present these numbers without commentary. They speak for themselves.
-        Or rather, they speak for the millions of professionals who are, at
-        this very moment, sitting in an office doing something other than what
-        they are paid to do.
+        The figures are presented without editorial commentary. Interpretation
+        is left to individual departments.
       </p>
 
       <h2>Outlook</h2>
@@ -102,7 +100,7 @@ export default function Memo() {
       </p>
 
       <p>
-        We remain cautiously optimistic. Or rather, we remain.
+        Monitoring continues through Q2.
       </p>
 
       <p>

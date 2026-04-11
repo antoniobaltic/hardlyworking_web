@@ -26,7 +26,7 @@ const memos: {
     date: "April 11, 2026",
     title: "We're Hiring: A Message from the Chief Slacking Officer",
     excerpt:
-      "Today, Hardly Working Corp. opens its doors to the public. The app is live. Your time has value, even when your employer says it doesn't.",
+      "Hardly Working Corp. opens its doors to the public. The application is available for download. Standard onboarding procedure applies.",
     readTime: "3 min",
   },
   {
@@ -62,7 +62,7 @@ const memos: {
     date: "March 25, 2026",
     title: "The Reclamation Index: Why We Don't Say 'Stealing'",
     excerpt:
-      "A corporate language policy that accidentally makes the case that your employer is the one doing the taking. The politeness is the critique.",
+      "A corporate language policy explaining why Hardly Working Corp. uses 'reclaimed' instead of 'stolen.' The underlying labor economics are noted without commentary.",
     readTime: "4 min",
   },
   {

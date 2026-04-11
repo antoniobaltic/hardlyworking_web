@@ -55,8 +55,9 @@ export default function Memo() {
       </p>
 
       <p>
-        And underneath all of it, a simple idea: your time has value, even
-        when your employer says it doesn&apos;t.
+        And underneath all of it, a measurement tool. The system quantifies
+        non-productive time regardless of how it is classified by the user&apos;s
+        primary employer.
       </p>
 
       <h2>Background</h2>

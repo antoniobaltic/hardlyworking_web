@@ -72,8 +72,8 @@ export default function Memo() {
 
       <p>
         The time between reasonable efforts — the coffee, the scroll, the
-        stare — was never theirs. It was always yours. You are not stealing
-        it back. You are <em>reclaiming</em> it.
+        stare — falls outside the scope of the employment transaction.
+        It is therefore classified as <em>reclaimed</em> rather than taken.
       </p>
 
       <h2>The Economics</h2>
