@@ -74,12 +74,12 @@ export default function HowItWorks() {
           <p className="font-mono text-xs text-text-primary/45 mb-2">
             =FORECAST(annual_reclamation)
           </p>
-          <p className="font-mono text-sm text-text-primary/50">
+          <p className="font-mono text-sm text-text-primary/50 max-w-xs sm:max-w-none mx-auto leading-relaxed">
             The average Hardly Working Corp. employee reclaims{" "}
-            <span className="money text-xl">$4,200</span> worth of time per
-            year.
+            <span className="money text-lg sm:text-xl">$4,200</span> worth of
+            time per year.
           </p>
-          <p className="font-mono text-[10px] text-text-primary/45 mt-2">
+          <p className="font-mono text-[10px] text-text-primary/45 mt-3 max-w-[250px] sm:max-w-none mx-auto">
             *Based on internal projections. Individual results vary by department.
           </p>
         </motion.div>
