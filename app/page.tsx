@@ -7,6 +7,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
+import RecentMemos from "@/components/RecentMemos";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
@@ -113,6 +114,7 @@ export default function Home() {
         <Testimonials />
         <Pricing />
         <FAQ />
+        <RecentMemos />
         <FinalCTA />
       </main>
       <Footer />
