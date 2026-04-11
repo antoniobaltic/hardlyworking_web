@@ -27,12 +27,21 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://hardlyworking.app",
     siteName: "Hardly Working",
+    images: [
+      {
+        url: "/hardlyworking_ogimage.png",
+        width: 1200,
+        height: 630,
+        alt: "Hardly Working Corp. — We're Hiring! The break timer that shows what your slacking is worth.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Hardly Working Corp. — We're Hiring!",
     description:
       "Join the world's leading time reclamation firm. Track your breaks. Calculate your reclaimed wages. No experience required.",
+    images: ["/hardlyworking_ogimage.png"],
   },
   other: {
     "theme-color": "#457B9D",
