@@ -26,17 +26,19 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
-        <a href="#" className="font-mono font-bold text-sm tracking-tight text-text-primary">
+        <a href="/" className="font-mono font-bold text-sm tracking-tight text-text-primary">
           Hardly Working Corp<span className="text-dead-blue">.</span>
         </a>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4 sm:gap-6">
+          {/* Memos — visible on all screen sizes */}
           <a
             href="/memos"
-            className="hidden sm:inline font-mono text-xs text-text-primary/60 hover:text-text-primary/80 transition-colors"
+            className="font-mono text-xs text-text-primary/60 hover:text-text-primary/80 transition-colors"
           >
             Memos
           </a>
+          {/* Legal links — desktop only */}
           <a
             href="/privacy"
             className="hidden sm:inline font-mono text-xs text-text-primary/60 hover:text-text-primary/80 transition-colors"
