@@ -11,8 +11,8 @@ Contact: antoniobaltic [at] icloud.com
 Status: Actively reclaiming
 
 /* MASCOT */
-Title: Corporate Liaison
-Name: Classified
+Title: Employee Relations Officer
+Name: John D.
 Species: Wooden-toy office worker
 Eyes: Dead (black dots)
 Attire: Blue dress shirt, black tie
