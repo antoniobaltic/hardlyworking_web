@@ -18,7 +18,7 @@ export default function Terms() {
         <h1 className="text-3xl font-light text-text-primary mt-8 mb-2">
           Terms of Service
         </h1>
-        <p className="font-mono text-xs text-text-primary/30 mb-12">
+        <p className="font-mono text-xs text-text-primary/50 mb-12">
           Effective: April 10, 2026 · Last updated: April 11, 2026
         </p>
 

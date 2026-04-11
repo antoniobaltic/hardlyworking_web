@@ -1,13 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Confetti from "./Confetti";
 
 const APP_STORE_URL = "https://apps.apple.com/app/id6761917321";
 
 export default function FinalCTA() {
   return (
-    <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
-      <div className="max-w-2xl mx-auto text-center">
+    <section className="relative py-24 px-6" style={{ background: "var(--card-bg)" }}>
+      <Confetti />
+      <div className="relative max-w-2xl mx-auto text-center">
         {/* Mascot placeholder */}
         <motion.img
           src="/mascot_honest.png"
