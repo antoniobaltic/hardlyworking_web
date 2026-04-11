@@ -13,29 +13,33 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hardly Working — The Time Reclamation Platform",
+  title: "Hardly Working — Break Timer & Wage Calculator",
   description:
-    "Track time spent not working at work. See how much you've reclaimed from your employer. Inspired by the modern professional's existential crisis.",
+    "Track your breaks. Calculate your reclaimed wages. Hardly Working Corp. is the world's leading time reclamation firm. Free break timer app for iOS.",
   keywords: [
-    "time tracking",
-    "slacking",
-    "productivity",
-    "work life balance",
-    "bullshit jobs",
+    "break timer",
+    "time tracker",
+    "slacking timer",
+    "wage calculator",
+    "hourly pay tracker",
+    "work break tracker",
     "time reclamation",
+    "procrastination timer",
+    "hardly working",
+    "salary calculator",
   ],
   openGraph: {
-    title: "Hardly Working — The Time Reclamation Platform",
+    title: "Hardly Working Corp. — We're Hiring!",
     description:
-      "Track time spent not working at work. See how much you've reclaimed.",
+      "Join the world's leading time reclamation firm. Track your breaks. Calculate your reclaimed wages. No experience required.",
     type: "website",
     url: "https://hardlyworking.app",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hardly Working",
+    title: "Hardly Working Corp. — We're Hiring!",
     description:
-      "Track time spent not working at work. The time reclamation platform for the modern professional.",
+      "The break timer and wage calculator for everything you do at work that isn't work. Free on iOS.",
   },
 };
 

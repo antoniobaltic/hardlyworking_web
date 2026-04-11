@@ -20,12 +20,11 @@ export default function Categories() {
     <section className="py-20 px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <p className="section-header text-center mb-4">
-          ACTIVITY CLASSIFICATION SYSTEM
+          APPROVED ACTIVITY CODES
         </p>
-        <p className="font-mono text-sm text-text-primary/40 text-center mb-12 max-w-md mx-auto">
-          10 pre-approved categories. From innocent to existential.
-          <br />
-          Pro users can add custom ones.
+        <p className="font-mono text-sm text-text-primary/40 text-center mb-12 max-w-lg mx-auto">
+          All Hardly Working Corp. employees receive 10 pre-approved break
+          categories. From innocent to existential. Promoted employees may create custom ones.
         </p>
 
         <motion.div
@@ -38,7 +37,7 @@ export default function Categories() {
           }}
           className="flex flex-wrap justify-center gap-3"
         >
-          {categories.map((cat, i) => (
+          {categories.map((cat) => (
             <motion.div
               key={cat.name}
               variants={{

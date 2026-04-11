@@ -4,26 +4,26 @@ import { motion } from "framer-motion";
 
 const APP_STORE_URL = "https://apps.apple.com/app/id6761917321";
 
-const freeFeatures = [
-  "Full timer (all 10 categories)",
-  "Today + This Week dashboard",
-  "Benchmarks summary",
-  "Join friend groups",
-  "Share cards (with watermark)",
-  "Achievements (10 free)",
+const internFeatures = [
+  "Full break timer (all 10 activity codes)",
+  "Today + This Week performance reports",
+  "Industry benchmarks summary",
+  "Join reclamation units (groups)",
+  "Share cards (with company watermark)",
+  "10 employee commendations (achievements)",
 ];
 
-const proFeatures = [
-  "Everything in Free, plus:",
-  "Month, Year, Lifetime dashboards",
-  "Insights engine (\"Audit Findings\")",
+const executiveFeatures = [
+  "Everything in Intern, plus:",
+  "Month, Year, Lifetime reports",
+  "Audit Findings (insights engine)",
   "Personal records & category rankings",
   "Full country & industry benchmarks",
-  "Create friend groups (unlimited)",
-  "Custom categories",
+  "Create reclamation units (unlimited)",
+  "Custom activity codes",
   "CSV data export",
   "Premium share cards (no watermark)",
-  "Pro achievements (5 exclusive)",
+  "5 executive-only commendations",
 ];
 
 export default function Pricing() {
@@ -31,10 +31,10 @@ export default function Pricing() {
     <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
       <div className="max-w-4xl mx-auto">
         <p className="section-header text-center mb-4">
-          COMPENSATION PACKAGES
+          EMPLOYEE TIERS
         </p>
         <p className="font-mono text-sm text-text-primary/40 text-center mb-12">
-          Standard clearance is free. Pro clearance unlocks everything.
+          All positions start free. Promotions are available for ambitious reclaimers.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -48,18 +48,18 @@ export default function Pricing() {
           >
             <div className="mb-6">
               <p className="font-mono text-xs font-bold text-text-primary/45 tracking-wider uppercase mb-2">
-                Standard Clearance
+                Intern
               </p>
               <p className="text-3xl font-light text-text-primary">
                 Free
               </p>
               <p className="font-mono text-xs text-text-primary/45 mt-1">
-                Forever. No tricks.
+                Permanent position. No performance review.
               </p>
             </div>
 
             <ul className="space-y-3">
-              {freeFeatures.map((f) => (
+              {internFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2">
                   <span className="text-reclaimed-green text-sm mt-0.5">✓</span>
                   <span className="font-mono text-sm text-text-primary/60">
@@ -73,7 +73,7 @@ export default function Pricing() {
               href={APP_STORE_URL}
               className="mt-8 block text-center font-mono text-sm font-semibold text-dead-blue border border-dead-blue px-6 py-3 rounded-xl hover:bg-dead-blue/5 transition-colors"
             >
-              Download Free
+              Start as Intern — Free
             </a>
           </motion.div>
 
@@ -87,13 +87,13 @@ export default function Pricing() {
           >
             <div className="absolute -top-3 right-6">
               <span className="font-mono text-[10px] font-bold text-white bg-dead-blue px-3 py-1 rounded-full tracking-wider">
-                RECOMMENDED
+                PROMOTED
               </span>
             </div>
 
             <div className="mb-6">
               <p className="font-mono text-xs font-bold text-dead-blue tracking-wider uppercase mb-2">
-                Pro Clearance
+                Executive
               </p>
               <div className="flex items-baseline gap-2">
                 <p className="text-3xl font-light text-text-primary">
@@ -104,12 +104,12 @@ export default function Pricing() {
                 </p>
               </div>
               <p className="font-mono text-xs text-reclaimed-green mt-1">
-                7-day free trial · Save 85% vs weekly
+                7-day trial period · Save 85% vs weekly
               </p>
             </div>
 
             <ul className="space-y-3">
-              {proFeatures.map((f) => (
+              {executiveFeatures.map((f) => (
                 <li key={f} className="flex items-start gap-2">
                   <span className="text-reclaimed-green text-sm mt-0.5">✓</span>
                   <span className="font-mono text-sm text-text-primary/60">
@@ -123,11 +123,11 @@ export default function Pricing() {
               href={APP_STORE_URL}
               className="mt-8 block text-center font-mono text-sm font-semibold text-white bg-dead-blue px-6 py-3 rounded-xl hover:bg-dead-blue/90 transition-colors"
             >
-              Start Free Trial
+              Request Promotion — Free Trial
             </a>
 
             <p className="font-mono text-[10px] text-text-primary/40 text-center mt-3">
-              Also available: $4.99/week (no trial)
+              Also available: $4.99/week (no trial period)
             </p>
           </motion.div>
         </div>

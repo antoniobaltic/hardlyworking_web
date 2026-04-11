@@ -5,22 +5,23 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "01",
-    title: "Start Slacking",
-    description: "Tap a category. The timer starts. You start not working.",
+    title: "Clock In",
+    description:
+      "Select your activity. Tap to start the break timer. Your shift at Hardly Working Corp. has begun.",
     accent: "var(--blood-red)",
   },
   {
     number: "02",
-    title: "Track Everything",
+    title: "Log Everything",
     description:
-      "Every session logged. Every minute counted. Every dollar calculated.",
+      "Every session is recorded. Every minute counted. Every dollar of reclaimed wages calculated automatically.",
     accent: "var(--dead-blue)",
   },
   {
     number: "03",
-    title: "Reclaim Your Time",
+    title: "Collect Your Earnings",
     description:
-      "See exactly how much you've reclaimed. Share your stats. Feel empowered.",
+      "Review your reclamation reports. Compare against industry benchmarks. Share your performance review.",
     accent: "var(--reclaimed-green)",
   },
 ];
@@ -30,10 +31,10 @@ export default function HowItWorks() {
     <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
       <div className="max-w-5xl mx-auto">
         <p className="section-header text-center mb-4">
-          STANDARD OPERATING PROCEDURE
+          NEW HIRE ORIENTATION
         </p>
         <p className="font-mono text-sm text-text-primary/40 text-center mb-16">
-          Three steps to operational inefficiency.
+          Your onboarding at Hardly Working Corp. takes three steps.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -70,16 +71,16 @@ export default function HowItWorks() {
           transition={{ delay: 0.5 }}
           className="mt-16 text-center"
         >
-          <p className="font-mono text-xs text-text-primary/30 mb-2">
+          <p className="font-mono text-xs text-text-primary/35 mb-2">
             =FORECAST(annual_reclamation)
           </p>
           <p className="font-mono text-sm text-text-primary/50">
-            The average user reclaims{" "}
+            The average Hardly Working Corp. employee reclaims{" "}
             <span className="money text-xl">$4,200</span> worth of time per
             year.
           </p>
           <p className="font-mono text-[10px] text-text-primary/35 mt-2">
-            *Based on absolutely nothing. Your results will vary.
+            *Based on internal projections. Individual results vary by department.
           </p>
         </motion.div>
       </div>

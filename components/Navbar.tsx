@@ -27,7 +27,7 @@ export default function Navbar() {
     >
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
         <a href="#" className="font-mono font-bold text-sm tracking-tight text-text-primary">
-          Hardly Working<span className="text-dead-blue">.</span>
+          Hardly Working Corp<span className="text-dead-blue">.</span>
         </a>
 
         <div className="flex items-center gap-6">
@@ -47,7 +47,7 @@ export default function Navbar() {
             href={APP_STORE_URL}
             className="font-mono text-xs font-semibold text-white bg-text-primary px-4 py-2 rounded-lg hover:bg-text-primary/90 transition-colors"
           >
-            Download
+            Apply Now
           </a>
         </div>
       </div>
