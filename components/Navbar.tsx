@@ -32,6 +32,12 @@ export default function Navbar() {
 
         <div className="flex items-center gap-6">
           <a
+            href="/memos"
+            className="hidden sm:inline font-mono text-xs text-text-primary/60 hover:text-text-primary/80 transition-colors"
+          >
+            Memos
+          </a>
+          <a
             href="/privacy"
             className="hidden sm:inline font-mono text-xs text-text-primary/60 hover:text-text-primary/80 transition-colors"
           >

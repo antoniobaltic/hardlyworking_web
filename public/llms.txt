@@ -12,6 +12,7 @@ The app is freemium. The free tier includes full timer functionality with all 10
 - [App Store](https://apps.apple.com/app/id6761917321): Download Hardly Working for free on iOS
 - [Privacy Policy](https://hardlyworking.app/privacy): Full privacy policy covering data collection, GDPR, CCPA, and third-party services
 - [Terms of Service](https://hardlyworking.app/terms): Terms of use including subscription terms and Apple EULA provisions
+- [Memos](https://hardlyworking.app/memos): Official internal communications from Hardly Working Corp. — articles on slacking, time reclamation, and workplace culture
 
 ## Features
 

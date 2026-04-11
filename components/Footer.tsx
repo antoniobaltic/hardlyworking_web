@@ -13,6 +13,12 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
+          <a
+              href="/memos"
+              className="font-mono text-xs text-text-primary/50 hover:text-text-primary/60 transition-colors"
+            >
+              Memos
+            </a>
             <a
               href="/privacy"
               className="font-mono text-xs text-text-primary/50 hover:text-text-primary/60 transition-colors"
