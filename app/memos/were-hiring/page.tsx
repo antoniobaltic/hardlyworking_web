@@ -62,7 +62,7 @@ export default function Memo() {
       <h2>Why We Built It</h2>
 
       <p>
-        I started this project in February because I was tired of pretending.
+        I founded this firm in February because I was tired of pretending.
       </p>
 
       <p>
@@ -118,13 +118,11 @@ export default function Memo() {
 
       <p>
         <em>
-          — Antonio Baltic
+          — J. Pemberton
           <br />
           Chief Slacking Officer
           <br />
           Hardly Working Corp.
-          <br />
-          Graz, Austria
         </em>
       </p>
     </MemoLayout>

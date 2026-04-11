@@ -23,7 +23,7 @@ export default function Memo() {
       <p>
         It is with measured enthusiasm that we announce the formation of{" "}
         <strong>Hardly Working Corp.</strong>, a time reclamation solutions firm
-        headquartered in Graz, Austria. Effective immediately, the company is
+        headquartered in an undisclosed location. Effective immediately, the company is
         open for enrollment.
       </p>
 
@@ -110,7 +110,7 @@ export default function Memo() {
 
       <p>
         <em>
-          — Antonio Baltic
+          — J. Pemberton
           <br />
           Chief Slacking Officer
           <br />
