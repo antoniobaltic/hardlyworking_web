@@ -43,6 +43,9 @@ export const metadata: Metadata = {
       "Join the world's leading time reclamation firm. Track your breaks. Calculate your reclaimed wages. No experience required.",
     images: ["/hardlyworking_ogimage.png"],
   },
+  verification: {
+    google: "OMBZcLXS4ZTMHXzOPZQeEawGIlxYdiSTya4_wfmdrxI",
+  },
   other: {
     "theme-color": "#457B9D",
     "apple-mobile-web-app-capable": "yes",
