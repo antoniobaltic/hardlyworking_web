@@ -30,11 +30,11 @@ export default function HowItWorks() {
   return (
     <section className="py-24 px-6" style={{ background: "var(--card-bg)" }}>
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
-          NEW HIRE ORIENTATION
+        <p className="font-mono text-xl sm:text-2xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
+          YOUR JOB DESCRIPTION
         </p>
-        <p className="font-mono text-sm text-text-primary/50 text-center mb-16">
-          Your onboarding at Hardly Working Corp. takes three steps.
+        <p className="font-mono text-sm text-text-primary/50 text-center mb-12">
+          Three responsibilities. Zero accountability.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

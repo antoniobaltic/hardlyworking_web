@@ -26,7 +26,7 @@ export default function Footer() {
               Terms of Service
             </a>
             <a
-              href="mailto:antoniobaltic@icloud.com"
+              href="mailto:antoniobaltic@icloud.com?subject=Hardly%20Working%20%E2%80%94%20Support%20Request"
               className="font-mono text-xs text-text-primary/50 hover:text-text-primary/60 transition-colors"
             >
               Contact
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-text-primary/[0.03]">
-          <p className="font-mono text-[9px] text-text-primary/40 text-center leading-relaxed max-w-xl mx-auto">
+          <p className="font-mono text-[11px] text-text-primary/40 text-center leading-relaxed max-w-xl mx-auto">
             CORPORATE NOTICE: Hardly Working Corp. is a fictional entity and is
             not affiliated with, endorsed by, or connected to your actual
             employer. Time reclamation figures are self-reported and should not be

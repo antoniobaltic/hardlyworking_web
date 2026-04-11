@@ -19,7 +19,7 @@ export default function Privacy() {
           Privacy Policy
         </h1>
         <p className="font-mono text-xs text-text-primary/30 mb-12">
-          Last updated: April 10, 2026
+          Effective: April 10, 2026 · Last updated: April 11, 2026
         </p>
 
         <div className="prose-custom space-y-8">
@@ -32,7 +32,7 @@ export default function Privacy() {
             <p>
               We are committed to protecting your privacy. Your time entries and
               personal data are treated with the utmost care and are never sold
-              to third parties.
+              or shared with third parties for advertising purposes.
             </p>
           </Section>
 
@@ -45,29 +45,43 @@ export default function Privacy() {
                 unless you choose to share them.
               </li>
               <li>
-                <strong>Profile data:</strong> Hourly rate, work schedule, country, and industry
-                (used for benchmarking and in-app calculations).
+                <strong>Profile data:</strong> Hourly rate, currency, work schedule (hours per day,
+                days per week), country, industry, achievement level, and display title
+                (used for benchmarking, group leaderboards, and in-app calculations).
               </li>
               <li>
                 <strong>Time entries:</strong> Activity categories, start/end times, and durations
-                that you manually record.
+                that you manually record. Stored locally on your device.
+              </li>
+              <li>
+                <strong>Friend groups:</strong> If you create or join a friend group, your anonymous
+                user ID, group name, description, emoji, invite code, and aggregated daily
+                statistics are stored on our servers and visible to other group members.
               </li>
             </ul>
 
             <h4>Information Collected Automatically</h4>
             <ul>
               <li>
-                <strong>Device identifiers:</strong> For analytics attribution (via AppsFlyer SDK).
-                Subject to your App Tracking Transparency (ATT) consent.
+                <strong>Device identifiers:</strong> With your ATT consent, AppsFlyer collects your
+                advertising identifier (IDFA), install events, and IP address for attribution.
+                Without consent, limited data (IDFV, install timestamp) may still be collected
+                for basic analytics.
               </li>
               <li>
-                <strong>Subscription status:</strong> Managed through RevenueCat to verify your
-                subscription entitlements.
+                <strong>Subscription status:</strong> Managed through RevenueCat, which collects
+                purchase history and anonymous device identifiers to verify your subscription
+                entitlements.
               </li>
               <li>
                 <strong>Aggregated usage statistics:</strong> Daily totals (total seconds, session
-                count, top category) synced to our servers for anonymous
-                benchmarking.
+                count, top category) synced to our servers for anonymous benchmarking.
+                Individual time entries are never sent to our servers.
+              </li>
+              <li>
+                <strong>Notifications:</strong> We may request permission to send local notifications
+                (timer reminders). Notification content is generated on your device and is not
+                transmitted to our servers.
               </li>
             </ul>
           </Section>
@@ -75,59 +89,98 @@ export default function Privacy() {
           <Section title="3. How We Use Your Data">
             <ul>
               <li>To provide core app functionality (timer, dashboards, achievements)</li>
-              <li>To calculate and display your personal statistics</li>
+              <li>To calculate and display your personal statistics and reclaimed wages</li>
               <li>To generate anonymous aggregate benchmarks (country, industry, global)</li>
+              <li>To power friend group leaderboards with aggregated statistics</li>
               <li>To manage your subscription and in-app purchases</li>
               <li>To measure advertising attribution (with your consent)</li>
               <li>To improve the App based on aggregate usage patterns</li>
             </ul>
           </Section>
 
-          <Section title="4. Third-Party Services">
+          <Section title="4. Legal Basis for Processing (GDPR)">
+            <p>We process your data on the following legal bases:</p>
+            <ul>
+              <li>
+                <strong>Contract performance:</strong> To provide the core app functionality
+                you requested — timer, dashboards, subscription management, and friend groups.
+              </li>
+              <li>
+                <strong>Consent:</strong> For advertising attribution via App Tracking Transparency.
+                You can withdraw consent at any time via Settings → Privacy &amp; Security → Tracking.
+              </li>
+              <li>
+                <strong>Legitimate interest:</strong> To generate anonymous aggregate benchmarks
+                and improve the App. Individual data is never used for profiling or automated
+                decision-making.
+              </li>
+            </ul>
+          </Section>
+
+          <Section title="5. Third-Party Services">
             <p>We use the following third-party services:</p>
             <ul>
               <li>
-                <strong>Supabase</strong> — Authentication, profile storage, and aggregated statistics.
-                Data is stored in the EU (eu-central-1). Privacy policy:{" "}
+                <strong>Supabase</strong> — Authentication, profile storage, friend groups, and
+                aggregated statistics. Data is stored in the EU (eu-central-1). Privacy policy:{" "}
                 <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">
                   supabase.com/privacy
                 </a>
               </li>
               <li>
                 <strong>RevenueCat</strong> — Subscription management and purchase verification.
-                Privacy policy:{" "}
+                Collects purchase history and anonymous device identifiers. Data is processed
+                in the United States. Privacy policy:{" "}
                 <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">
                   revenuecat.com/privacy
                 </a>
               </li>
               <li>
-                <strong>AppsFlyer</strong> — Mobile attribution analytics (subject to ATT consent).
-                Privacy policy:{" "}
+                <strong>AppsFlyer</strong> — Mobile attribution analytics. With your ATT consent,
+                collects advertising identifier (IDFA), install events, and IP address. Without
+                consent, limited data (IDFV, install timestamp) may still be collected. Data is
+                processed in the United States and EU. Privacy policy:{" "}
                 <a href="https://www.appsflyer.com/privacy-policy/" target="_blank" rel="noopener noreferrer">
                   appsflyer.com/privacy-policy
                 </a>
               </li>
               <li>
-                <strong>Apple (iCloud/CloudKit)</strong> — Device-to-device sync of your time entries.
-                Governed by Apple&apos;s privacy policy.
+                <strong>Apple (iCloud/CloudKit)</strong> — Device-to-device sync of your time entries,
+                achievements, and custom categories. Governed by{" "}
+                <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+                  Apple&apos;s privacy policy
+                </a>.
               </li>
             </ul>
           </Section>
 
-          <Section title="5. Data Storage & Security">
+          <Section title="6. International Data Transfers">
+            <p>
+              Your data may be transferred to and processed in countries outside your
+              country of residence, including the United States (RevenueCat, AppsFlyer)
+              and the European Union (Supabase). These transfers are protected by:
+            </p>
+            <ul>
+              <li>Standard Contractual Clauses (SCCs) approved by the European Commission</li>
+              <li>The service providers&apos; compliance with applicable data protection frameworks</li>
+              <li>Encryption in transit and at rest</li>
+            </ul>
+          </Section>
+
+          <Section title="7. Data Storage & Security">
             <p>
               Your time entries are stored locally on your device and synced via
-              iCloud to your other Apple devices. Only aggregated daily
-              statistics (not individual entries) are sent to our servers.
+              iCloud to your other Apple devices. Only aggregated daily statistics
+              (not individual entries) are sent to our servers.
             </p>
             <p>
               Server-side data is stored in Supabase (EU region, eu-central-1)
               with encryption at rest and in transit. We follow industry-standard
-              security practices.
+              security practices to protect your data.
             </p>
           </Section>
 
-          <Section title="6. Your Rights">
+          <Section title="8. Your Rights">
             <p>You have the right to:</p>
             <ul>
               <li>
@@ -143,50 +196,87 @@ export default function Privacy() {
                 feature).
               </li>
               <li>
+                <strong>Rectification:</strong> Update your profile data at any time via the app&apos;s
+                Profile → Preferences section.
+              </li>
+              <li>
                 <strong>Opt out of tracking:</strong> Decline the App Tracking Transparency prompt
-                to prevent advertising attribution data collection.
+                or revoke consent via Settings → Privacy &amp; Security → Tracking.
               </li>
             </ul>
-            <p>
-              For GDPR (EU) and CCPA (California) purposes, you may exercise
-              these rights by contacting us at the email below or using the
-              in-app controls.
-            </p>
           </Section>
 
-          <Section title="7. Data Retention">
+          <Section title="9. California Privacy Rights (CCPA/CPRA)">
+            <p>If you are a California resident, you have additional rights:</p>
+            <ul>
+              <li>
+                <strong>Right to Know:</strong> You may request the categories and specific pieces
+                of personal information we have collected about you in the last 12 months.
+              </li>
+              <li>
+                <strong>Right to Delete:</strong> You may request deletion of your personal information.
+              </li>
+              <li>
+                <strong>Right to Opt Out:</strong> We do not sell or share your personal information
+                as defined by the CCPA. No opt-out is necessary.
+              </li>
+              <li>
+                <strong>Right to Non-Discrimination:</strong> We will not discriminate against you
+                for exercising any of these rights.
+              </li>
+            </ul>
+            <p>Categories of personal information collected in the last 12 months:</p>
+            <ul>
+              <li>Identifiers (Apple user ID, device identifiers with consent)</li>
+              <li>Commercial information (subscription status, purchase history)</li>
+              <li>Internet or network activity (aggregated usage statistics)</li>
+              <li>Professional information (industry, self-reported)</li>
+              <li>Geolocation (country, self-reported — not GPS)</li>
+            </ul>
+          </Section>
+
+          <Section title="10. Data Retention">
             <p>
               We retain your data for as long as your account is active. When you
               delete your account, all server-side data (profile, daily stats,
-              group memberships) is permanently removed. Local data on your
-              device is also erased.
+              group memberships, and groups you created) is permanently removed.
+              Local data on your device is also erased. Aggregated, anonymized
+              benchmark data that cannot be linked back to you may be retained.
             </p>
           </Section>
 
-          <Section title="8. Children&apos;s Privacy">
+          <Section title="11. Children&apos;s Privacy">
             <p>
               Hardly Working is not intended for users under 17 years of age. We
-              do not knowingly collect personal information from children.
+              do not knowingly collect personal information from children. If we
+              learn that we have collected data from a child under 17, we will
+              delete it promptly.
             </p>
           </Section>
 
-          <Section title="9. Changes to This Policy">
+          <Section title="12. Changes to This Policy">
             <p>
               We may update this Privacy Policy from time to time. Changes will
-              be posted on this page with an updated &quot;Last updated&quot; date. Your
-              continued use of the App constitutes acceptance of any changes.
+              be posted on this page with an updated date. Material changes will
+              be communicated through the App. Your continued use of the App after
+              changes constitutes acceptance of the updated policy.
             </p>
           </Section>
 
-          <Section title="10. Contact">
+          <Section title="13. Contact">
             <p>
               For privacy inquiries, data requests, or concerns:
             </p>
             <p>
+              <strong>Data Controller:</strong> Antonio Baltic
+              <br />
               <strong>Email:</strong>{" "}
               <a href="mailto:antoniobaltic@icloud.com">
                 antoniobaltic@icloud.com
               </a>
+            </p>
+            <p>
+              We aim to respond to all privacy-related requests within 30 days.
             </p>
           </Section>
         </div>

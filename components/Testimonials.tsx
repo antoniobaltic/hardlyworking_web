@@ -6,24 +6,28 @@ const reviews = [
   {
     name: "Employee #4782",
     role: "Office Drone · Joined Q1 2026",
+    avatar: "/avatar1.jpg",
     rating: 5,
     text: "Hardly Working Corp. has completely transformed my relationship with productivity. My quarterly output has never been lower. HR has questions.",
   },
   {
     name: "Anonymous Bureaucrat",
     role: "Bureaucrat · Joined Q2 2026",
+    avatar: "/avatar2.jpg",
     rating: 5,
     text: "I reclaimed $2,400 last quarter. My real employer's performance review says I'm 'exceeding expectations.' Both statements are somehow true.",
   },
   {
     name: "Concerned Manager",
     role: "Suit & Tie · Joined Q1 2026",
+    avatar: "/avatar3.jpg",
     rating: 4,
     text: "I downloaded this to understand what my team was doing. Now I use it more than they do. Requesting a transfer to the Reclamation Unit.",
   },
   {
     name: "Reformed Workaholic",
-    role: "Tech Bro · Joined Q3 2026",
+    role: "Tech Bro · Joined Q2 2026",
+    avatar: "/avatar4.jpg",
     rating: 5,
     text: "Best employer I've ever had. The onboarding was seamless. I used to feel guilty about bathroom breaks. Now I feel empowered.",
   },
@@ -33,7 +37,7 @@ export default function Testimonials() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
+        <p className="font-mono text-xl sm:text-2xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           EMPLOYEE TESTIMONIALS
         </p>
         <p className="font-mono text-xs text-text-primary/50 text-center mb-12">
@@ -76,12 +80,12 @@ export default function Testimonials() {
                 &ldquo;{review.text}&rdquo;
               </p>
 
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-dead-blue/10 flex items-center justify-center">
-                  <span className="font-mono text-xs font-bold text-dead-blue/60">
-                    {review.name.charAt(0)}
-                  </span>
-                </div>
+              <div className="flex items-center gap-3">
+                <img
+                  src={review.avatar}
+                  alt={review.name}
+                  className="w-10 h-10 rounded-full object-cover border border-text-primary/[0.06]"
+                />
                 <div>
                   <p className="font-mono text-xs font-semibold text-text-primary/60">
                     {review.name}

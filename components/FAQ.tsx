@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "What counts as a 'break'?",
-    a: "Whatever you want it to count as. Hardly Working Corp. provides 10 pre-approved activity codes ranging from 'Coffee Run' to 'Into the Void.' Promoted employees can create custom codes. The Department of Employee Morale has been dissolved and can no longer judge you.",
+    a: "Whatever you want it to count as. Hardly Working Corp. provides 10 pre-approved activity codes ranging from 'Coffee Run' to 'Doom Scrolling.' Promoted employees can create custom codes. The Department of Employee Morale has been dissolved and can no longer judge you.",
   },
   {
     q: "Can I really reclaim $4,200 a year?",
@@ -36,10 +36,10 @@ export default function FAQ() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-2xl mx-auto">
-        <p className="font-mono text-lg sm:text-xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-2">
+        <p className="font-mono text-xl sm:text-2xl font-extrabold tracking-[0.15em] uppercase text-text-primary/70 text-center mb-4">
           FREQUENTLY ASKED QUESTIONS
         </p>
-        <p className="font-mono text-[10px] text-text-primary/25 text-center mb-12">
+        <p className="font-mono text-xs text-text-primary/50 text-center mb-12">
           INTERNAL MEMO | REF: FAQ-HWC-2026 | HARDLY WORKING CORP. | CLASSIFICATION: PUBLIC
         </p>
 
