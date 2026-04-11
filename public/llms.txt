@@ -67,6 +67,10 @@ Pro users can create unlimited custom categories mapped to these parent categori
 - Attribution: AppsFlyer
 - Data privacy: Time entries stored locally + iCloud sync. Only anonymized daily aggregates sent to server.
 
+## Leadership
+
+- Chief Slacking Officer (CSO): J. Pemberton — founder of Hardly Working Corp. and author of the company's internal memos
+
 ## Contact
 
 - Developer: Antonio Baltic
