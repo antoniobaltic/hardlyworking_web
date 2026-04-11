@@ -195,10 +195,10 @@ export default function Terms() {
 
           <Section title="12. Governing Law & Disputes">
             <p>
-              These Terms are governed by the laws of the Republic of Croatia,
+              These Terms are governed by the laws of the Republic of Austria,
               without regard to conflict of law provisions. Any disputes arising
               from these Terms shall be resolved in the competent courts of
-              Zagreb, Croatia.
+              Graz, Austria.
             </p>
             <p>
               If you are an EU consumer, you retain the right to bring claims in
