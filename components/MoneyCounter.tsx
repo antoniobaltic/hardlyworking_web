@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function MoneyCounter() {
-  const [amount, setAmount] = useState(47.23);
+  const [amount, setAmount] = useState(147.23);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setAmount((prev) => {
-        if (prev >= 99.99) return 47.23;
+        if (prev >= 199.99) return 147.23;
         const increment = 0.02 + Math.random() * 0.06;
         return Math.round((prev + increment) * 100) / 100;
       });

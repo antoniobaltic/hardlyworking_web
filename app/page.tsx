@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import RecentMemos from "@/components/RecentMemos";
+import MemoSubscribe from "@/components/MemoSubscribe";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
@@ -26,7 +27,7 @@ const jsonLd = {
   installUrl: "https://apps.apple.com/app/id6761917321",
   softwareVersion: "1.0",
   datePublished: "2026-04-11",
-  inLanguage: ["en", "de"],
+  inLanguage: ["en"],
   offers: [
     {
       "@type": "Offer",
@@ -115,6 +116,7 @@ export default function Home() {
         <Pricing />
         <FAQ />
         <RecentMemos />
+        <MemoSubscribe />
         <FinalCTA />
       </main>
       <Footer />

@@ -46,7 +46,7 @@ export default function FinalCTA() {
         >
           <AppStoreBadge />
           <p className="font-mono text-[10px] text-text-primary/50 mt-3">
-            Apply now!
+            Apply Now!
           </p>
         </motion.div>
       </div>

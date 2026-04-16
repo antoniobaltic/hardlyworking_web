@@ -130,8 +130,8 @@ export default function Memo() {
         </li>
         <li>
           Non-productive time should be tracked — not to reduce it, but to
-          quantify it. Quantification has been shown to reduce the guilt
-          of your colleagues is also doing.
+          quantify it. Quantification has been shown to reduce guilt.
+          Your colleagues are doing the same.
         </li>
       </ul>
 

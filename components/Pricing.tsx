@@ -55,9 +55,6 @@ export default function Pricing() {
               <p className="font-mono text-xs text-text-primary/55 mt-1">
                 Permanent position. Zero expectations.
               </p>
-              <p className="font-mono text-xs text-text-primary/35 mt-0.5">
-                Free forever. No credit card required.
-              </p>
             </div>
 
             <p className="font-mono text-xs font-semibold text-text-primary/40 uppercase tracking-wider mb-3">
@@ -113,7 +110,7 @@ export default function Pricing() {
                 7-day free trial (cancel anytime).
               </p>
               <p className="font-mono text-xs text-reclaimed-green/70 mt-0.5">
-                Save 85% vs weekly.
+                Founding offer!
               </p>
             </div>
 

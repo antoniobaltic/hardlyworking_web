@@ -90,7 +90,7 @@ export default function Hero() {
           >
             <AppStoreBadge />
             <span className="font-mono text-[10px] text-text-primary/50">
-              iOS 26+ · Start your onboarding today!
+              Start your onboarding today!
             </span>
           </motion.div>
         </motion.div>
