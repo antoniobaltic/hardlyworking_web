@@ -94,12 +94,23 @@ export default function RecentMemos() {
           ))}
         </motion.div>
 
-        <div className="text-center mt-10">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
           <a
             href="/memos"
             className="font-mono text-sm text-dead-blue hover:text-dead-blue/80 transition-colors"
           >
             View all memos →
+          </a>
+          <span className="font-mono text-xs text-text-primary/30 hidden sm:inline">
+            ·
+          </span>
+          <a
+            href="https://hardlyworkingcorp.substack.com/subscribe"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-sm text-dead-blue hover:text-dead-blue/80 transition-colors"
+          >
+            Subscribe to new memos →
           </a>
         </div>
       </div>

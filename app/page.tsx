@@ -8,7 +8,6 @@ import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import RecentMemos from "@/components/RecentMemos";
-import MemoSubscribe from "@/components/MemoSubscribe";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 
@@ -116,7 +115,6 @@ export default function Home() {
         <Pricing />
         <FAQ />
         <RecentMemos />
-        <MemoSubscribe />
         <FinalCTA />
       </main>
       <Footer />
