@@ -19,7 +19,7 @@ export default function Privacy() {
           Privacy Policy
         </h1>
         <p className="font-mono text-xs text-text-primary/50 mb-12">
-          Effective: April 10, 2026 · Last updated: April 11, 2026
+          Effective: April 23, 2026 · Last updated: April 23, 2026
         </p>
 
         <div className="prose-custom space-y-8">
@@ -36,7 +36,30 @@ export default function Privacy() {
             </p>
           </Section>
 
-          <Section title="2. Data We Collect">
+          <Section title="2. What We Do Not Do">
+            <p>
+              Before describing what we do collect, a clear statement of what we
+              do not:
+            </p>
+            <ul>
+              <li>We do not track you across other apps or websites.</li>
+              <li>
+                We do not use third-party analytics or advertising attribution
+                SDKs (no AppsFlyer, no Adjust, no Firebase Analytics, no Mixpanel,
+                nothing of the sort).
+              </li>
+              <li>We do not display advertising of any kind inside the App.</li>
+              <li>We do not collect your advertising identifier (IDFA).</li>
+              <li>
+                We do not request permission under Apple&apos;s App Tracking
+                Transparency framework, because we have nothing to ask permission
+                for.
+              </li>
+              <li>We do not sell your data. We do not share it with data brokers.</li>
+            </ul>
+          </Section>
+
+          <Section title="3. Data We Collect">
             <h4>Information You Provide</h4>
             <ul>
               <li>
@@ -51,7 +74,8 @@ export default function Privacy() {
               </li>
               <li>
                 <strong>Time entries:</strong> Activity categories, start/end times, and durations
-                that you manually record. Stored locally on your device.
+                that you manually record. Stored locally on your device only.
+                These are never sent to our servers as individual rows.
               </li>
               <li>
                 <strong>Friend groups:</strong> If you create or join a friend group, your anonymous
@@ -62,12 +86,6 @@ export default function Privacy() {
 
             <h4>Information Collected Automatically</h4>
             <ul>
-              <li>
-                <strong>Device identifiers:</strong> With your ATT consent, AppsFlyer collects your
-                advertising identifier (IDFA), install events, and IP address for attribution.
-                Without consent, limited data (IDFV, install timestamp) may still be collected
-                for basic analytics.
-              </li>
               <li>
                 <strong>Subscription status:</strong> Managed through RevenueCat, which collects
                 purchase history and anonymous device identifiers to verify your subscription
@@ -86,28 +104,23 @@ export default function Privacy() {
             </ul>
           </Section>
 
-          <Section title="3. How We Use Your Data">
+          <Section title="4. How We Use Your Data">
             <ul>
               <li>To provide core app functionality (timer, dashboards, achievements)</li>
               <li>To calculate and display your personal statistics and reclaimed wages</li>
               <li>To generate anonymous aggregate benchmarks (country, industry, global)</li>
               <li>To power friend group leaderboards with aggregated statistics</li>
               <li>To manage your subscription and in-app purchases</li>
-              <li>To measure advertising attribution (with your consent)</li>
               <li>To improve the App based on aggregate usage patterns</li>
             </ul>
           </Section>
 
-          <Section title="4. Legal Basis for Processing (GDPR)">
+          <Section title="5. Legal Basis for Processing (GDPR)">
             <p>We process your data on the following legal bases:</p>
             <ul>
               <li>
                 <strong>Contract performance:</strong> To provide the core app functionality
                 you requested — timer, dashboards, subscription management, and friend groups.
-              </li>
-              <li>
-                <strong>Consent:</strong> For advertising attribution via App Tracking Transparency.
-                You can withdraw consent at any time via Settings → Privacy &amp; Security → Tracking.
               </li>
               <li>
                 <strong>Legitimate interest:</strong> To generate anonymous aggregate benchmarks
@@ -117,8 +130,8 @@ export default function Privacy() {
             </ul>
           </Section>
 
-          <Section title="5. Third-Party Services">
-            <p>We use the following third-party services:</p>
+          <Section title="6. Third-Party Services">
+            <p>We use exactly two third-party services:</p>
             <ul>
               <li>
                 <strong>Supabase</strong> — Authentication, profile storage, friend groups, and
@@ -135,30 +148,24 @@ export default function Privacy() {
                   revenuecat.com/privacy
                 </a>
               </li>
-              <li>
-                <strong>AppsFlyer</strong> — Mobile attribution analytics. With your ATT consent,
-                collects advertising identifier (IDFA), install events, and IP address. Without
-                consent, limited data (IDFV, install timestamp) may still be collected. Data is
-                processed in the United States and EU. Privacy policy:{" "}
-                <a href="https://www.appsflyer.com/privacy-policy/" target="_blank" rel="noopener noreferrer">
-                  appsflyer.com/privacy-policy
-                </a>
-              </li>
-              <li>
-                <strong>Apple (iCloud/CloudKit)</strong> — Device-to-device sync of your time entries,
-                achievements, and custom categories. Governed by{" "}
-                <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
-                  Apple&apos;s privacy policy
-                </a>.
-              </li>
             </ul>
+            <p>
+              Apple processes your Sign in with Apple authentication and, if you
+              have iCloud Backup enabled on your device, may include the App&apos;s
+              local data in your device&apos;s standard iOS backup. This backup is
+              governed by{" "}
+              <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
+                Apple&apos;s privacy policy
+              </a>{" "}
+              and is not something we integrate with directly.
+            </p>
           </Section>
 
-          <Section title="6. International Data Transfers">
+          <Section title="7. International Data Transfers">
             <p>
               Your data may be transferred to and processed in countries outside your
-              country of residence, including the United States (RevenueCat, AppsFlyer)
-              and the European Union (Supabase). These transfers are protected by:
+              country of residence, including the United States (RevenueCat) and
+              the European Union (Supabase). These transfers are protected by:
             </p>
             <ul>
               <li>Standard Contractual Clauses (SCCs) approved by the European Commission</li>
@@ -167,20 +174,23 @@ export default function Privacy() {
             </ul>
           </Section>
 
-          <Section title="7. Data Storage & Security">
+          <Section title="8. Data Storage & Security">
             <p>
-              Your time entries are stored locally on your device and synced via
-              iCloud to your other Apple devices. Only aggregated daily statistics
-              (not individual entries) are sent to our servers.
+              Your time entries are stored locally on your device. They are not
+              transmitted to our servers as individual rows. If you have iCloud
+              Backup enabled on your iPhone, those local entries may be included
+              in your standard device backup — that&apos;s Apple&apos;s backup
+              mechanism, not an active sync integration on our side.
             </p>
             <p>
-              Server-side data is stored in Supabase (EU region, eu-central-1)
-              with encryption at rest and in transit. We follow industry-standard
-              security practices to protect your data.
+              Server-side data (your profile, aggregated daily statistics, and
+              friend-group membership) is stored in Supabase (EU region,
+              eu-central-1) with encryption at rest and in transit. We follow
+              industry-standard security practices to protect your data.
             </p>
           </Section>
 
-          <Section title="8. Your Rights">
+          <Section title="9. Your Rights">
             <p>You have the right to:</p>
             <ul>
               <li>
@@ -199,14 +209,10 @@ export default function Privacy() {
                 <strong>Rectification:</strong> Update your profile data at any time via the app&apos;s
                 Profile → Preferences section.
               </li>
-              <li>
-                <strong>Opt out of tracking:</strong> Decline the App Tracking Transparency prompt
-                or revoke consent via Settings → Privacy &amp; Security → Tracking.
-              </li>
             </ul>
           </Section>
 
-          <Section title="9. California Privacy Rights (CCPA/CPRA)">
+          <Section title="10. California Privacy Rights (CCPA/CPRA)">
             <p>If you are a California resident, you have additional rights:</p>
             <ul>
               <li>
@@ -227,7 +233,7 @@ export default function Privacy() {
             </ul>
             <p>Categories of personal information collected in the last 12 months:</p>
             <ul>
-              <li>Identifiers (Apple user ID, device identifiers with consent)</li>
+              <li>Identifiers (Apple user ID)</li>
               <li>Commercial information (subscription status, purchase history)</li>
               <li>Internet or network activity (aggregated usage statistics)</li>
               <li>Professional information (industry, self-reported)</li>
@@ -235,7 +241,7 @@ export default function Privacy() {
             </ul>
           </Section>
 
-          <Section title="10. Data Retention">
+          <Section title="11. Data Retention">
             <p>
               We retain your data for as long as your account is active. When you
               delete your account, all server-side data (profile, daily stats,
@@ -245,7 +251,7 @@ export default function Privacy() {
             </p>
           </Section>
 
-          <Section title="11. Children&apos;s Privacy">
+          <Section title="12. Children's Privacy">
             <p>
               Hardly Working is not intended for users under 17 years of age. We
               do not knowingly collect personal information from children. If we
@@ -254,7 +260,7 @@ export default function Privacy() {
             </p>
           </Section>
 
-          <Section title="12. Changes to This Policy">
+          <Section title="13. Changes to This Policy">
             <p>
               We may update this Privacy Policy from time to time. Changes will
               be posted on this page with an updated date. Material changes will
@@ -263,7 +269,7 @@ export default function Privacy() {
             </p>
           </Section>
 
-          <Section title="13. Contact">
+          <Section title="14. Contact">
             <p>
               For privacy inquiries, data requests, or concerns:
             </p>
