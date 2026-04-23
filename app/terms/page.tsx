@@ -19,7 +19,7 @@ export default function Terms() {
           Terms of Service
         </h1>
         <p className="font-mono text-xs text-text-primary/50 mb-12">
-          Effective: April 10, 2026 · Last updated: April 11, 2026
+          Effective: April 23, 2026 · Last updated: April 23, 2026
         </p>
 
         <div className="prose-custom space-y-8">
@@ -61,10 +61,10 @@ export default function Terms() {
             </p>
             <ul>
               <li>
-                <strong>Weekly:</strong> $4.99 per week. No free trial. Auto-renews weekly.
+                <strong>Weekly:</strong> $2.99 per week. No free trial. Auto-renews weekly.
               </li>
               <li>
-                <strong>Annual:</strong> $39.99 per year. Includes a 7-day free trial.
+                <strong>Annual:</strong> $24.99 per year. Includes a 7-day free trial.
                 Auto-renews annually.
               </li>
             </ul>
@@ -144,9 +144,18 @@ export default function Terms() {
               have read and understood our Privacy Policy.
             </p>
             <p>
-              The App uses third-party services including Supabase, RevenueCat, and
-              AppsFlyer as described in our Privacy Policy. By using the App, you
-              also agree to the applicable terms of these third-party services.
+              Hardly Working does not track you across other apps or websites, does
+              not use third-party analytics or advertising attribution SDKs, and does
+              not display advertising of any kind. The App does not request permission
+              under Apple&apos;s App Tracking Transparency framework because it
+              performs no tracking that would require such permission.
+            </p>
+            <p>
+              The App uses two third-party services: Supabase (for authentication,
+              profile storage, and aggregate benchmark data) and RevenueCat (for
+              subscription management). Both are described in our Privacy Policy.
+              By using the App, you also agree to the applicable terms of these
+              third-party services.
             </p>
           </Section>
 
