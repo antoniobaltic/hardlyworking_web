@@ -10,7 +10,7 @@ export default function Memo() {
   return (
     <MemoLayout
       memoRef="MEMO-2026-011"
-      date="April 22, 2026"
+      date="April 24, 2026"
       title="The Meaning Deficit"
       department="Dept. of Research & Development"
       classification="Advisory"

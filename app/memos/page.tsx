@@ -23,7 +23,7 @@ const memos: {
   {
     slug: "the-meaning-deficit",
     ref: "MEMO-2026-011",
-    date: "April 22, 2026",
+    date: "April 24, 2026",
     title: "The Meaning Deficit",
     excerpt:
       "A Department of Research memo on the psychological cost of meaningless work. We are not running a productivity crisis — we are running a meaning crisis, at scale, and calling it an economy.",

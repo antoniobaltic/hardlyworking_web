@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/memos/the-meaning-deficit`,
-      lastModified: new Date("2026-04-22"),
+      lastModified: new Date("2026-04-24"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
