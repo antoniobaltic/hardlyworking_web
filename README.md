@@ -12,7 +12,7 @@ Live at **[hardlyworking.app](https://hardlyworking.app)**.
 - **Vercel** for hosting and analytics
 - JSON-LD (`SoftwareApplication` schema) + OG / Twitter cards for SEO
 
-See [`AGENTS.md`](./AGENTS.md) before letting an AI assistant write code in this repo — the Next.js version is a recent major with breaking changes from older training data. Consult `node_modules/next/dist/docs/` when in doubt.
+If you let an AI assistant write code in this repo, remind it that Next.js 16 has breaking changes versus older training data — consult `node_modules/next/dist/docs/` when in doubt.
 
 ## Running locally
 
