@@ -38,14 +38,14 @@ const jsonLd = {
     },
     {
       "@type": "Offer",
-      price: "39.99",
+      price: "24.99",
       priceCurrency: "USD",
       name: "Pro (Executive) — Annual",
       description:
         "Everything in Free plus monthly/yearly/lifetime dashboards, full benchmarks, friend group creation, custom categories, CSV export, premium share cards, exclusive achievements",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
-        price: "39.99",
+        price: "24.99",
         priceCurrency: "USD",
         billingDuration: "P1Y",
         billingIncrement: 1,
@@ -53,12 +53,12 @@ const jsonLd = {
     },
     {
       "@type": "Offer",
-      price: "4.99",
+      price: "2.99",
       priceCurrency: "USD",
       name: "Pro (Executive) — Weekly",
       priceSpecification: {
         "@type": "UnitPriceSpecification",
-        price: "4.99",
+        price: "2.99",
         priceCurrency: "USD",
         billingDuration: "P1W",
         billingIncrement: 1,

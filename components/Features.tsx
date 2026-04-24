@@ -28,25 +28,17 @@ const features: Feature[] = [
   {
     image: "/screenshots/3.png",
     imageAlt:
-      "Country and industry rankings screen showing global slacking benchmarks",
-    formula: "=PERCENTILE(you, everyone)",
-    dept: "DEPT. OF COMPETITIVE ANALYSIS",
-    title: "Industry Benchmarks",
+      "Career performance dashboard showing day, week, month, year, and lifetime reports",
+    formula: "=SUM(career_reclaimed)",
+    dept: "DEPT. OF ANALYTICS",
+    title: "Performance Dashboard",
     description:
-      "Compare your reclamation rate against anonymous global data. See which countries slack hardest. See which industries lead in Doom Scrolling. No one is told where you personally rank.",
+      "Day, week, month, year, and lifetime reports. Personal records. Category rankings. Audit findings. Watch your career of strategic underachievement unfold in beautiful charts. Management would ",
+    strikethrough: "not",
+    descriptionSuffix: " be impressed.",
   },
   {
     image: "/screenshots/4.png",
-    imageAlt:
-      "Reclamation Unit leaderboard showing coworkers ranked by reclaimed wages",
-    formula: "=RANK(you, unit)",
-    dept: "DEPT. OF GROUP OPERATIONS",
-    title: "Reclamation Units",
-    description:
-      "Form a private unit with your coworkers. Generate a QR code invite. Run weekly leaderboards. Hold each other accountable through shared professional negligence. Visible only to members.",
-  },
-  {
-    image: "/screenshots/5.png",
     imageAlt: "Employee commendations screen showing achievement tiers",
     formula: "=COUNTA(commendations)",
     dept: "DEPT. OF EMPLOYEE RECOGNITION",
@@ -55,7 +47,7 @@ const features: Feature[] = [
       "Fifteen commendations across five rarity tiers. Awarded automatically for sustained underachievement. Legendary-tier awarded rarely, silently, and without warning. Displayed in your personnel file.",
   },
   {
-    image: "/screenshots/6.png",
+    image: "/screenshots/5.png",
     imageAlt:
       "Personnel dossier screen showing employee ID, clearance level, and reclamation history",
     formula: "=LOOKUP(employee_id)",
@@ -65,16 +57,24 @@ const features: Feature[] = [
       "Your Employee ID is issued on enrollment. Your clearance level is earned through accumulated service. Your full reclamation history is stored locally on your device. HR does not have access.",
   },
   {
+    image: "/screenshots/6.png",
+    imageAlt:
+      "Country and industry rankings screen showing global slacking benchmarks",
+    formula: "=PERCENTILE(you, everyone)",
+    dept: "DEPT. OF COMPETITIVE ANALYSIS",
+    title: "Industry Benchmarks",
+    description:
+      "Compare your reclamation rate against anonymous global data. See which countries slack hardest. See which industries lead in Doom Scrolling. No one is told where you personally rank.",
+  },
+  {
     image: "/screenshots/7.png",
     imageAlt:
-      "Career performance dashboard showing day, week, month, year, and lifetime reports",
-    formula: "=SUM(career_reclaimed)",
-    dept: "DEPT. OF ANALYTICS",
-    title: "Performance Dashboard",
+      "Reclamation Unit leaderboard showing coworkers ranked by reclaimed wages",
+    formula: "=RANK(you, unit)",
+    dept: "DEPT. OF GROUP OPERATIONS",
+    title: "Reclamation Units",
     description:
-      "Day, week, month, year, and lifetime reports. Personal records. Category rankings. Audit findings. Watch your career of strategic underachievement unfold in beautiful charts. Management would ",
-    strikethrough: "not",
-    descriptionSuffix: " be impressed.",
+      "Form a private unit with your coworkers. Generate a QR code invite. Run weekly leaderboards. Hold each other accountable through shared professional negligence. Visible only to members.",
   },
 ];
 

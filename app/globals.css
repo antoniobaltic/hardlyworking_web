@@ -75,3 +75,21 @@ html {
 ::selection {
   background: rgba(69, 123, 157, 0.2);
 }
+
+/* Navbar entrance — CSS keyframe so SSR and client render identically
+   (Framer Motion's post-hydration initial snap caused a brief clip). */
+@keyframes nav-slide-in {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.nav-slide-in {
+  animation: nav-slide-in 0.4s ease-out both;
+  will-change: transform, opacity;
+}

@@ -30,7 +30,7 @@ Doctype: Existential
 Platform: iOS 26+
 Built with: SwiftUI, SwiftData, Supabase
 Subscriptions: RevenueCat
-Attribution: AppsFlyer
+Attribution: None (no tracking SDKs, no ATT prompt)
 Vibe: Corporate training video meets children's toy
 
 /* NOTE */

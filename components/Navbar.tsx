@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const APP_STORE_URL = "https://apps.apple.com/app/id6761917321";
 
@@ -15,11 +14,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <motion.nav
-      initial={{ y: -20, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.4 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav
+      className={`nav-slide-in fixed top-0 left-0 right-0 z-50 transition-[background-color,backdrop-filter,border-color,box-shadow] duration-300 ${
         scrolled
           ? "bg-white/90 backdrop-blur-md border-b border-text-primary/[0.06] shadow-sm"
           : "bg-transparent"
@@ -59,6 +55,6 @@ export default function Navbar() {
           </a>
         </div>
       </div>
-    </motion.nav>
+    </nav>
   );
 }

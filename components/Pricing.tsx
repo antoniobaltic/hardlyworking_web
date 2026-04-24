@@ -100,7 +100,7 @@ export default function Pricing() {
               </p>
               <div className="flex items-baseline gap-2">
                 <p className="text-3xl font-light text-text-primary">
-                  $39.99
+                  $24.99
                 </p>
                 <p className="font-mono text-xs text-text-primary/50">
                   /year
@@ -137,7 +137,7 @@ export default function Pricing() {
             </a>
 
             <p className="font-mono text-[10px] text-text-primary/50 text-center mt-3">
-              Also available: $4.99/week (no trial period)
+              Also available: $2.99/week (no trial period)
             </p>
           </motion.div>
         </div>

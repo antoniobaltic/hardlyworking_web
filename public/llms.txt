@@ -4,7 +4,7 @@
 
 Hardly Working is available on the iOS App Store for iPhone (iOS 26+). The app uses a corporate-ironic brand voice — bland HR language on the surface, absurd content underneath. The fictional company "Hardly Working Corp." frames the app as a time reclamation firm where users are "employees."
 
-The app is freemium. The free tier includes full timer functionality with all 10 activity categories, today and weekly performance dashboards, basic industry benchmarks, the ability to join friend group leaderboards, share cards, and 10 achievements. The Pro tier ($4.99/week or $39.99/year with 7-day free trial) unlocks monthly/yearly/lifetime dashboards, an insights engine called "Audit Findings," personal records and category rankings, full country and industry benchmark rankings, friend group creation and management, custom activity categories, CSV data export, premium share cards without watermark, and 5 exclusive achievements.
+The app is freemium. The free tier includes full timer functionality with all 10 activity categories, today and weekly performance dashboards, basic industry benchmarks, the ability to join friend group leaderboards, share cards, and 10 achievements. The Pro tier ($2.99/week or $24.99/year with 7-day free trial) unlocks monthly/yearly/lifetime dashboards, an insights engine called "Audit Findings," personal records and category rankings, full country and industry benchmark rankings, friend group creation and management, custom activity categories, CSV data export, premium share cards without watermark, and 5 exclusive achievements.
 
 ## Links
 
@@ -56,7 +56,7 @@ Pro users can create unlimited custom categories mapped to these parent categori
 ## Pricing
 
 - **Free (Intern tier):** Full break timer, today + this week dashboards, basic benchmarks, join friend groups, share cards with watermark, 10 achievements
-- **Pro (Executive tier):** $4.99/week (no trial) or $39.99/year (7-day free trial, cancel anytime). Includes everything in Free plus: month/year/lifetime dashboards, insights engine, personal records, full benchmark rankings, create friend groups, custom categories, CSV export, premium share cards, 5 exclusive achievements
+- **Pro (Executive tier):** $2.99/week (no trial) or $24.99/year (7-day free trial, cancel anytime). Includes everything in Free plus: month/year/lifetime dashboards, insights engine, personal records, full benchmark rankings, create friend groups, custom categories, CSV export, premium share cards, 5 exclusive achievements
 
 ## Technical Details
 
@@ -64,7 +64,7 @@ Pro users can create unlimited custom categories mapped to these parent categori
 - Framework: SwiftUI + SwiftData
 - Backend: Supabase (EU region, eu-central-1) for auth, profiles, and aggregate benchmarks
 - Subscriptions: RevenueCat
-- Attribution: AppsFlyer
+- Attribution: None. The app uses no attribution SDK and does not show an ATT prompt — it does not track users.
 - Data privacy: Time entries stored locally + iCloud sync. Only anonymized daily aggregates sent to server.
 
 ## Leadership
