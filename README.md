@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hardly Working — Landing Page
 
-## Getting Started
+The marketing site for [Hardly Working](https://apps.apple.com/app/id6761917321) — a satirical iOS break timer that tracks time spent *not* working and calculates its dollar value at the user's hourly rate. The app is a product of **Hardly Working Corp.**, a fictional time reclamation firm.
 
-First, run the development server:
+Live at **[hardlyworking.app](https://hardlyworking.app)**.
+
+## Stack
+
+- **Next.js 16** (App Router) + **React 19**
+- **Tailwind CSS v4**
+- **Framer Motion** for section animations and the Employee Toolkit carousel
+- **Vercel** for hosting and analytics
+- JSON-LD (`SoftwareApplication` schema) + OG / Twitter cards for SEO
+
+See [`AGENTS.md`](./AGENTS.md) before letting an AI assistant write code in this repo — the Next.js version is a recent major with breaking changes from older training data. Consult `node_modules/next/dist/docs/` when in doubt.
+
+## Running locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/
+  page.tsx            Landing page composition + JSON-LD schema
+  layout.tsx          Global metadata (title, description, OG, icons)
+  globals.css         Brand tokens + custom keyframes
+  memos/              In-universe memos from Hardly Working Corp.
+    page.tsx            Memo index
+    <slug>/page.tsx     One folder per memo, composes MemoLayout
+  privacy/            Privacy policy
+  terms/              Terms of service
+  sitemap.ts          Dynamic sitemap
+  not-found.tsx       404 page — "#EMPLOYEE_NOT_FOUND"
+components/           Landing page sections + shared UI
+public/
+  mascot_*.png        John D. (Employee Relations Officer)
+  screenshots/        App screenshots used in the Employee Toolkit
+  llms.txt            Structured summary for LLM crawlers
+  humans.txt          Personnel directory, brand-flavored
+  robots.txt          Allow list for AI crawlers
+```
 
-## Learn More
+## Brand
 
-To learn more about Next.js, take a look at the following resources:
+| Token | Hex |
+|---|---|
+| Background | `#FFFFFF` |
+| Text navy | `#1D3557` |
+| Dead blue | `#457B9D` |
+| Blood red | `#E63946` |
+| Caution yellow | `#F4A261` |
+| Reclaimed green (money only) | `#2A9D8F` |
+| Card background | `#F1FAEE` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Fonts** — Inter (body) and JetBrains Mono (everything that reads like a memo)
+- **Mascot** — John D., Employee Relations Officer (wooden-toy office worker, dead eyes, blue shirt)
+- **Voice** — J. Pemberton, Chief Slacking Officer. Dry, bureaucratic, institutional. Never snarky. No crime metaphors.
+- **Copy rules** — "Reclaimed" not "stolen." "Activity" not "offense." "Employee" not "perpetrator." Money always shown in reclaimed green, once per screen.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Adding a memo
 
-## Deploy on Vercel
+Each memo is its own route. To publish one:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Create `app/memos/<slug>/page.tsx` rendering `<MemoLayout>` with `memoRef`, `date`, `title`, `department`, `classification`, and `readTime`.
+2. Register the new entry in:
+   - `app/memos/page.tsx` (the memo index, newest first)
+   - `app/sitemap.ts`
+   - `public/llms.txt`
+   - `components/RecentMemos.tsx` (the three most recent memos surfaced on the homepage — roll the tail off)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Memos cross-reference each other by their `MEMO-2026-NNN` ref. Keep numbering sequential.
+
+## Deployment
+
+Every push to `main` auto-deploys to Vercel. No CI gate.
+
+---
+
+© 2026 Hardly Working Corp. All rights reclaimed.
