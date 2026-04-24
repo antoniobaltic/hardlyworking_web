@@ -93,3 +93,22 @@ html {
   animation: nav-slide-in 0.4s ease-out both;
   will-change: transform, opacity;
 }
+
+/* Mobile carousel swipe hint — nudges the right-chevron glyph twice on
+   first paint so users see the "you can swipe" affordance. Plays on
+   the inner <svg>, so the button's own transform (translate-y-1/2) is
+   not overridden. */
+@keyframes chevron-nudge {
+  0%, 100% { transform: translateX(0); }
+  40%, 60% { transform: translateX(4px); }
+}
+
+.chevron-nudge {
+  animation: chevron-nudge 1.6s ease-in-out 1s 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chevron-nudge {
+    animation: none;
+  }
+}

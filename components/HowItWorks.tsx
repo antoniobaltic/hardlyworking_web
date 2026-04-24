@@ -19,7 +19,7 @@ const steps = [
   },
   {
     number: "03",
-    title: "Collect Your Earnings",
+    title: "File Your Report",
     description:
       "Review your reclamation reports. Compare against industry benchmarks. Share your performance review.",
     accent: "var(--reclaimed-green)",

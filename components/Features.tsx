@@ -62,7 +62,7 @@ const features: Feature[] = [
       "Country and industry rankings screen showing global slacking benchmarks",
     formula: "=PERCENTILE(you, everyone)",
     dept: "DEPT. OF COMPETITIVE ANALYSIS",
-    title: "Industry Benchmarks",
+    title: "Country & Industry Benchmarks",
     description:
       "Compare your reclamation rate against anonymous global data. See which countries slack hardest. See which industries lead in Doom Scrolling. No one is told where you personally rank.",
   },
@@ -156,6 +156,33 @@ export default function Features() {
             className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-8 z-10 w-11 h-11 items-center justify-center rounded-full bg-white border border-text-primary/[0.08] text-text-primary/60 hover:text-text-primary hover:border-text-primary/20 hover:shadow-md transition-all"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+
+          {/* Mobile swipe affordance — small semi-transparent chevrons
+              flanking the screenshot. Hidden on md+ where the larger
+              round buttons (above) are visible. Positioned with a fixed
+              vertical offset that lands roughly on the image's mid-line
+              given the mobile stacked layout. The right chevron nudges
+              once on mount so the swipe hint is discoverable. */}
+          <button
+            type="button"
+            onClick={prev}
+            aria-label="Previous feature"
+            className="md:hidden absolute left-2 top-[32%] -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm border border-text-primary/[0.08] text-text-primary/65 shadow-sm active:bg-white active:text-text-primary transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            onClick={next}
+            aria-label="Next feature"
+            className="md:hidden absolute right-2 top-[32%] -translate-y-1/2 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm border border-text-primary/[0.08] text-text-primary/65 shadow-sm active:bg-white active:text-text-primary transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="chevron-nudge">
               <polyline points="9 18 15 12 9 6" />
             </svg>
           </button>

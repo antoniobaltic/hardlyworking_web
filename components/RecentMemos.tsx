@@ -105,7 +105,7 @@ export default function RecentMemos() {
             ·
           </span>
           <a
-            href="https://hardlyworkingcorp.substack.com/subscribe"
+            href="https://hardlyworkingcorp.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-sm text-dead-blue hover:text-dead-blue/80 transition-colors"

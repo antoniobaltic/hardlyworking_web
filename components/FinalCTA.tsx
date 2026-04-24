@@ -35,7 +35,7 @@ export default function FinalCTA() {
           transition={{ delay: 0.1 }}
           className="font-mono text-sm text-text-primary/50 mb-10 max-w-lg mx-auto leading-relaxed"
         >
-          Welcome to Hardly Working Corp. Download your employee handbook and start reclaiming immediately. Your other employer will never know. <span className="italic">Probably.</span>
+          Welcome to Hardly Working Corp. Download the official app and start reclaiming immediately. Your other employer will never know. <span className="italic">Probably.</span>
         </motion.p>
 
         <motion.div
