@@ -13,6 +13,7 @@ The app is freemium. The free tier includes full timer functionality with all 10
 - [Privacy Policy](https://hardlyworking.app/privacy): Full privacy policy covering data collection, GDPR, CCPA, and third-party services
 - [Terms of Service](https://hardlyworking.app/terms): Terms of use including subscription terms and Apple EULA provisions
 - [Memos](https://hardlyworking.app/memos): Official internal communications from Hardly Working Corp. — articles on slacking, time reclamation, and workplace culture
+- [Memo: The Meaning Deficit](https://hardlyworking.app/memos/the-meaning-deficit): A Department of Research memo on the mental-health cost of meaningless work, the economic argument for abolishing bullshit jobs, and the case that the productivity crisis is actually a meaning crisis (April 22, 2026)
 - [Memo: We're Hiring](https://hardlyworking.app/memos/were-hiring): Launch announcement and letter from the Chief Slacking Officer (April 11, 2026)
 - [Memo: The Case for Doing Nothing](https://hardlyworking.app/memos/the-case-for-doing-nothing): Final report from the dissolved Department of Employee Morale on burnout, guilt, and strategic disengagement (April 7, 2026)
 - [Memo: A Note on "Bullshit Jobs"](https://hardlyworking.app/memos/a-note-on-bullshit-jobs): David Graeber's five types of pointless work as mandatory corporate training material (April 2, 2026)

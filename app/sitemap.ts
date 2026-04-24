@@ -17,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/memos/the-meaning-deficit`,
+      lastModified: new Date("2026-04-22"),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/memos/were-hiring`,
       lastModified: new Date("2026-04-11"),
       changeFrequency: "monthly",

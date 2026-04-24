@@ -53,9 +53,9 @@ export default function Memo() {
       <h2>Scoring</h2>
 
       <p>
-        <strong>0–2 &ldquo;yes&rdquo; answers:</strong> You may be performing
-        what economists call &ldquo;real work.&rdquo; This is unusual. Please
-        report to the Department of Anomalies.
+        <strong>0–2 &ldquo;yes&rdquo; answers:</strong>{" "}
+        You may be performing what economists call &ldquo;real work.&rdquo;{" "}
+        This is unusual. Please report to the Department of Anomalies.
       </p>
 
       <p>

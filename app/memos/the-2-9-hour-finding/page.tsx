@@ -104,7 +104,7 @@ export default function Memo() {
       </p>
 
       <p>
-        The tool provides quantification. Application of the resulting
+        Our tool provides quantification. Application of the resulting
         metrics remains at the discretion of the individual user.
       </p>
 

@@ -26,11 +26,11 @@ export default function Memo() {
       </p>
 
       <p>
-        Bathroom breaks now account for <strong>11.3%</strong> of all reclaimed
-        time across the Hardly Working employee base. This represents a 2.1
-        percentage point increase from our February baseline, and positions
-        the bathroom as the third most popular reclamation venue after
-        &ldquo;desk&rdquo; and &ldquo;break room.&rdquo;
+        Bathroom breaks now account for <strong>11.3%</strong>{" "}
+        of all reclaimed time across the Hardly Working employee base. This
+        represents a 2.1 percentage point increase from our February baseline,
+        and positions the bathroom as the third most popular reclamation venue
+        after &ldquo;desk&rdquo; and &ldquo;break room.&rdquo;
       </p>
 
       <h2>The Data</h2>

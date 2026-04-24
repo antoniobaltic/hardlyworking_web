@@ -78,7 +78,7 @@ export default function Memo() {
           may apply. This is a structural designation, not a performance review.
         </li>
         <li>
-          <strong>Goons</strong> — Roles that exist only because competitors
+          <strong>Goons</strong>{" "}— Roles that exist only because competitors
           have them. Corporate lobbyists. Armies of in-house lawyers. PR teams
           whose sole purpose is countering the other company&apos;s PR team. If
           your role would be unnecessary in a world where your competitors

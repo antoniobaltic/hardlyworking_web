@@ -21,6 +21,15 @@ const memos: {
   readTime: string;
 }[] = [
   {
+    slug: "the-meaning-deficit",
+    ref: "MEMO-2026-011",
+    date: "April 22, 2026",
+    title: "The Meaning Deficit",
+    excerpt:
+      "A Department of Research memo on the psychological cost of meaningless work. We are not running a productivity crisis — we are running a meaning crisis, at scale, and calling it an economy.",
+    readTime: "6 min",
+  },
+  {
     slug: "were-hiring",
     ref: "MEMO-2026-010",
     date: "April 11, 2026",
