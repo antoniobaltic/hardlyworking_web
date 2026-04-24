@@ -4,6 +4,14 @@ import { motion } from "framer-motion";
 
 const recentMemos = [
   {
+    slug: "the-meaning-deficit",
+    ref: "MEMO-2026-011",
+    date: "Apr 24",
+    title: "The Meaning Deficit",
+    excerpt:
+      "The productivity crisis is actually a meaning crisis. A Department of Research memo on the mental-health cost of pointless work.",
+  },
+  {
     slug: "were-hiring",
     ref: "MEMO-2026-010",
     date: "Apr 11",
@@ -18,14 +26,6 @@ const recentMemos = [
     title: "Employee Wellness Update: The Case for Doing Nothing",
     excerpt:
       "A final report from the dissolved Department of Employee Morale. On burnout, guilt, and strategic disengagement.",
-  },
-  {
-    slug: "a-note-on-bullshit-jobs",
-    ref: "MEMO-2026-008",
-    date: "Apr 2",
-    title: 'A Note on "Bullshit Jobs" — Required Reading',
-    excerpt:
-      "David Graeber identified five types of pointless work. The Department of Professional Development asks: which one is yours?",
   },
 ];
 

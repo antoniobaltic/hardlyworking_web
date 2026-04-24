@@ -24,7 +24,7 @@ const jsonLd = {
   url: "https://hardlyworking.app",
   downloadUrl: "https://apps.apple.com/app/id6761917321",
   installUrl: "https://apps.apple.com/app/id6761917321",
-  softwareVersion: "1.0",
+  softwareVersion: "1.1.0",
   datePublished: "2026-04-11",
   inLanguage: ["en"],
   offers: [
@@ -89,7 +89,7 @@ const jsonLd = {
     "15 achievements across 5 rarity tiers",
     "Share cards for social media",
     "CSV data export",
-    "Sign in with Apple and iCloud sync",
+    "Sign in with Apple for cross-device profile sync",
     "Offline-first — works without internet",
   ],
   screenshot: "https://hardlyworking.app/hardlyworking_ogimage.png",

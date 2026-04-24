@@ -23,7 +23,7 @@ Built with: Next.js, Tailwind CSS, Framer Motion
 Hosted on: Vercel
 Fonts: Inter, JetBrains Mono
 Standards: HTML5, CSS3, TypeScript
-Last updated: 2026-04-11
+Last updated: 2026-04-24
 Doctype: Existential
 
 /* APP */

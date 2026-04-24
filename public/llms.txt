@@ -35,7 +35,7 @@ The app is freemium. The free tier includes full timer functionality with all 10
 - 15 achievements across 5 rarity tiers with corporate-ironic names
 - Share cards for social media with personalized stats
 - CSV data export for full time entry history
-- Sign in with Apple for cross-device sync via iCloud
+- Sign in with Apple for cross-device profile sync via Supabase (time entries stay on-device)
 - Local notifications for background timer reminders
 - Offline-first: all core features work without internet
 
@@ -66,7 +66,7 @@ Pro users can create unlimited custom categories mapped to these parent categori
 - Backend: Supabase (EU region, eu-central-1) for auth, profiles, and aggregate benchmarks
 - Subscriptions: RevenueCat
 - Attribution: None. The app uses no attribution SDK and does not show an ATT prompt — it does not track users.
-- Data privacy: Time entries stored locally + iCloud sync. Only anonymized daily aggregates sent to server.
+- Data privacy: Time entries stay on-device (SwiftData, no live cloud sync). Profile and daily aggregates sync across devices via Supabase, tied to Sign in with Apple. If the user has iCloud Backup enabled, local entries are included in Apple's standard device backup — that's Apple's mechanism, not an integration on our side.
 
 ## Leadership
 

@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Is my data private?",
-    a: "Yes. Time entries are stored locally on your device and synced via iCloud to your other devices. Only anonymized daily totals are sent to our servers for benchmarking. We use Supabase for authentication and RevenueCat for subscriptions. Full details in our Privacy Policy.",
+    a: "Yes. Your individual time entries stay on your device — they are never uploaded to our servers as rows. Only anonymized daily totals are sent for benchmarking. Your profile syncs across your devices via Sign in with Apple. We use Supabase for authentication and RevenueCat for subscriptions. No tracking SDKs, no advertising identifiers. Full details in our Privacy Policy.",
   },
   {
     q: "Does the app work offline?",
